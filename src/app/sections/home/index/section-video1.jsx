@@ -7,7 +7,7 @@ function SectionVideo1() {
                 <div className="sx-bg-overlay" />
                 <div className="container">
                     <div className="sx-vodeo-section text-center">
-                        <h2 className="sx-large-title ">We are top IT Solutions Vedio and history</h2>
+                        <h2 className="sx-large-title ">We are top IT Solution Company</h2>
                         <div className="sx-video-btn-wrap">
                             <a href="https://www.youtube.com/watch?v=c1XNqw2gSbU" className="mfp-video circle">
                                 <i className="flaticon-play" />
