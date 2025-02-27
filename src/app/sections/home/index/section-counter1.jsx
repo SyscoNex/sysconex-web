@@ -34,10 +34,10 @@ function SectionCounter1() {
                             <h2 className="sx-title">
                                 <span className="sx-cont-before">+</span>
                                 <span className="counter">
-                                    <CountUp end={14} duration={8} />
+                                    <CountUp end={8} duration={5} />
                                 </span>
                             </h2>
-                            <div className="sx-count-info">Our Winning Award</div>
+                            <div className="sx-count-info">Our Total Clients</div>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
@@ -45,7 +45,7 @@ function SectionCounter1() {
                             <h2 className="sx-title">
                                 <span className="sx-cont-before">+</span>
                                 <span className="counter">
-                                    <CountUp end={50} duration={10} />
+                                    <CountUp end={7} duration={5} />
                                 </span>
                             </h2>
                             <div className="sx-count-info">Our Team Member</div>
