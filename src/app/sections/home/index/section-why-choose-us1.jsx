@@ -8,9 +8,9 @@ function SectionWhyChooseUs1() {
                 <div className="container">
                     {/* TITLE START */}
                     <div className="section-head center">
-                        <div className="sx-head-s-title">Why Choose Us</div>
-                        <div className="sx-head-l-title">
-                            <h2 className="sx-title">Our Work Services</h2>
+                        <div className="sx-head-s-title" style={{color:"white"}}>Why Choose Us</div>
+                        <div className="sx-head-l-title" >
+                            <h2 className="sx-title" style={{color:"white"}}>Our Work Services</h2>
                         </div>
                     </div>
                     {/* TITLE END */}
@@ -20,13 +20,13 @@ function SectionWhyChooseUs1() {
                                 {/* Block one */}
                                 <div className="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
                                     <div className="sx-icon-bx-1">
-                                        <div className="sx-icon-box-wraper">
+                                        <div className="sx-icon-box-wraper" style={{minHeight:"250px"}}>
                                             <div className="sx-icon-bx-icon ">
                                                 <span className="sx-text-primary"><i className="flaticon-data" /></span>
                                             </div>
                                             <div className="icon-content">
-                                                <NavLink to="/services/detail"><h4 className="sx-tilte">National consulting</h4></NavLink>
-                                                <p>There are many variations of passages of Lorem Ipsum available.</p>
+                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Web And Desktop Application</h4></NavLink>
+                                                <p>Scalable, secure, and high-performance applications tailored to your business.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -34,13 +34,13 @@ function SectionWhyChooseUs1() {
                                 {/* Block Two */}
                                 <div className="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
                                     <div className="sx-icon-bx-1">
-                                        <div className="sx-icon-box-wraper">
+                                        <div className="sx-icon-box-wraper" style={{minHeight:"250px"}}>
                                             <div className="sx-icon-bx-icon ">
                                                 <span className="sx-text-primary"><i className="flaticon-programmer" /></span>
                                             </div>
                                             <div className="icon-content">
-                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Safety First Always</h4></NavLink>
-                                                <p>There are many variations of passages of Lorem Ipsum available.</p>
+                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Mobile Application Development</h4></NavLink>
+                                                <p>Intuitive and powerful mobile apps that enhance user experience and engagement.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -48,13 +48,13 @@ function SectionWhyChooseUs1() {
                                 {/* Block Three */}
                                 <div className="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
                                     <div className="sx-icon-bx-1">
-                                        <div className="sx-icon-box-wraper">
+                                        <div className="sx-icon-box-wraper" style={{minHeight:"250px"}}>
                                             <div className="sx-icon-bx-icon ">
                                                 <span className="sx-text-primary"><i className="flaticon-positive-review" /></span>
                                             </div>
                                             <div className="icon-content">
-                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Monitoring &amp; Review</h4></NavLink>
-                                                <p>There are many variations of passages of Lorem Ipsum available.</p>
+                                                <NavLink to="/services/detail"><h4 className="sx-tilte">AI & ML Based Research Applications</h4></NavLink>
+                                                <p>Cutting-edge AI solutions that drive insights, automation, and innovation.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -62,13 +62,13 @@ function SectionWhyChooseUs1() {
                                 {/* Block Four */}
                                 <div className="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
                                     <div className="sx-icon-bx-1">
-                                        <div className="sx-icon-box-wraper">
+                                        <div className="sx-icon-box-wraper" style={{minHeight:"250px"}}>
                                             <div className="sx-icon-bx-icon ">
                                                 <span className="sx-text-primary"><i className="flaticon-profit" /></span>
                                             </div>
                                             <div className="icon-content">
-                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Business Digg System</h4></NavLink>
-                                                <p>There are many variations of passages of Lorem Ipsum available.</p>
+                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Search Engine Optimization (SEO)</h4></NavLink>
+                                                <p>Enhance your online visibility and drive more traffic with our expert SEO strategies.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -76,13 +76,13 @@ function SectionWhyChooseUs1() {
                                 {/* Block Five */}
                                 <div className="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
                                     <div className="sx-icon-bx-1">
-                                        <div className="sx-icon-box-wraper">
+                                        <div className="sx-icon-box-wraper" style={{minHeight:"250px"}}>
                                             <div className="sx-icon-bx-icon ">
                                                 <span className="sx-text-primary"><i className="flaticon-chart" /></span>
                                             </div>
                                             <div className="icon-content">
-                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Project Established</h4></NavLink>
-                                                <p>There are many variations of passages of Lorem Ipsum available.</p>
+                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Networking And Linux Based Assignment</h4></NavLink>
+                                                <p>Expert help with Networking and Linux assignments, from setup to security.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -90,13 +90,55 @@ function SectionWhyChooseUs1() {
                                 {/* Block SIx */}
                                 <div className="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
                                     <div className="sx-icon-bx-1">
-                                        <div className="sx-icon-box-wraper">
+                                        <div className="sx-icon-box-wraper" style={{minHeight:"250px"}}>
                                             <div className="sx-icon-bx-icon ">
-                                                <span className="sx-text-primary"><i className="flaticon-parking" /></span>
+                                                <span className="sx-text-primary"><i className="flaticon-security" /></span>
                                             </div>
                                             <div className="icon-content">
-                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Car Parking Space</h4></NavLink>
-                                                <p>There are many variations of passages of Lorem Ipsum available.</p>
+                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Cybersecurity Projects</h4></NavLink>
+                                                <p>Get expert support for cybersecurity assignments and projects.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* Block seven */}
+                                <div className="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms" >
+                                    <div className="sx-icon-bx-1">
+                                        <div className="sx-icon-box-wraper" style={{minHeight:"250px"}}>
+                                            <div className="sx-icon-bx-icon ">
+                                                <span className="sx-text-primary"><i className="flaticon-coding" /></span>
+                                            </div>
+                                            <div className="icon-content">
+                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Graphic Designing & Branding</h4></NavLink>
+                                                <p>Creative and professional graphic design solutions for all your needs.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* Block Eight */}
+                                <div className="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
+                                    <div className="sx-icon-bx-1">
+                                        <div className="sx-icon-box-wraper" style={{minHeight:"250px"}}>
+                                            <div className="sx-icon-bx-icon ">
+                                                <span className="sx-text-primary"><i className="flaticon-smart-contracts" /></span>
+                                            </div>
+                                            <div className="icon-content">
+                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Research Paper and Thesis</h4></NavLink>
+                                                <p>Expert support for research documentation and thesis writing with precision and clarity.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/* Block Nine */}
+                                <div className="col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="1000ms">
+                                    <div className="sx-icon-bx-1">
+                                        <div className="sx-icon-box-wraper" style={{minHeight:"250px"}}>
+                                            <div className="sx-icon-bx-icon ">
+                                                <span className="sx-text-primary"><i className="flaticon-smart-contracts" /></span>
+                                            </div>
+                                            <div className="icon-content">
+                                                <NavLink to="/services/detail"><h4 className="sx-tilte">Project Assistance & Explanation</h4></NavLink>
+                                                <p>Get guidance & clear explanations for your projects, ensuring accuracy and success.</p>
                                             </div>
                                         </div>
                                     </div>
