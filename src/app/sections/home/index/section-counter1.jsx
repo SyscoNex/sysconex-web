@@ -5,7 +5,7 @@ function SectionCounter1() {
         <>
             <div className="counter-blocks">
                 <div className="row when-item-four">
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    {/* <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div className="sx-count">
                             <h2 className="sx-title">
                                 <span className="sx-cont-before">+</span>
@@ -16,20 +16,20 @@ function SectionCounter1() {
                             </h2>
                             <div className="sx-count-info">Our Active Member</div>
                         </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    </div> */}
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div className="sx-count">
                             <h2 className="sx-title">
                                 <span className="sx-cont-before">+</span>
                                 <span className="counter">
-                                    <CountUp decimals={1} end={1.5} duration={10} />
+                                    <CountUp  end={35} duration={10} />
                                 </span>
-                                <span className="sx-cont-after">K</span>
+                                <span className="sx-cont-after"></span>
                             </h2>
                             <div className="sx-count-info">Our Total Project</div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div className="sx-count">
                             <h2 className="sx-title">
                                 <span className="sx-cont-before">+</span>
@@ -40,7 +40,7 @@ function SectionCounter1() {
                             <div className="sx-count-info">Our Winning Award</div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                         <div className="sx-count">
                             <h2 className="sx-title">
                                 <span className="sx-cont-before">+</span>
