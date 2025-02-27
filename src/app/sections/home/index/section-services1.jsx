@@ -9,7 +9,7 @@ function SectionServices1() {
                     <div className="section-head center">
                         <div className="sx-head-s-title">Our Services</div>
                         <div className="sx-head-l-title">
-                            <h2 className="sx-title">Sophisticated Knowledge For Rapidly Emerging Legal service of Our IT Solution!</h2>
+                            <h2 className="sx-title">Sophisticated expertise for fast-evolving IT solutions in the legal industry.</h2>
                         </div>
                     </div>
                     {/* TITLE END */}
@@ -24,8 +24,8 @@ function SectionServices1() {
                                                 <span className="sx-text-primary"><i className="flaticon-security" /></span>
                                             </div>
                                             <div className="icon-content">
-                                                <h4 className="sx-tilte">Product Engineering</h4>
-                                                <p>Orem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget cursus massa. Aliquam erat volutpat Morbi ligula magna.</p>
+                                                <h4 className="sx-tilte">Web And Desktop Application</h4>
+                                                <p>Scalable, secure, and high-performance applications tailored to your business needs.</p>
                                                 <div className="sx-center-btn">
                                                     <NavLink to="/services/detail" className="site-button-circle">
                                                         <i className="fa fa-long-arrow-right" />
@@ -43,8 +43,8 @@ function SectionServices1() {
                                                 <span className="sx-text-primary"><i className="flaticon-coding" /></span>
                                             </div>
                                             <div className="icon-content">
-                                                <h4 className="sx-tilte">Big Data &amp; Analytics</h4>
-                                                <p>Orem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget cursus massa. Aliquam erat volutpat Morbi ligula magna.</p>
+                                                <h4 className="sx-tilte">Mobile Application Development</h4>
+                                                <p>Intuitive and powerful mobile apps that enhance user experience and engagement.</p>
                                                 <div className="sx-center-btn">
                                                     <NavLink to="/services/detail" className="site-button-circle active">
                                                         <i className="fa fa-long-arrow-right" />
@@ -62,8 +62,8 @@ function SectionServices1() {
                                                 <span className="sx-text-primary"><i className="flaticon-smart-contracts" /></span>
                                             </div>
                                             <div className="icon-content">
-                                                <h4 className="sx-tilte">Creative Solutions</h4>
-                                                <p>Orem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget cursus massa. Aliquam erat volutpat Morbi ligula magna.</p>
+                                                <h4 className="sx-tilte">AI & ML Based Research Applications</h4>
+                                                <p>Cutting-edge AI solutions that drive insights, automation, and innovation.</p>
                                                 <div className="sx-center-btn">
                                                     <NavLink to="/services/detail" className="site-button-circle">
                                                         <i className="fa fa-long-arrow-right" />
