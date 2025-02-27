@@ -26,7 +26,7 @@ function SectionSlider1() {
                             <div className="sx-bnr-1-content">
                                 <span className="sx-bnr-1-small-title" data-swiper-parallax="-300">We are Dedicated</span>
                                 <h2 className="sx-bnr-1-large-title">inspired and passionate about innovation.</h2>
-                                <div className="sx-bnr-1-info">Fusce lacinia elit odio, id pulvinar erat placerat vitae. Sed quis aliquet neque. Aenean placerat condimentum lorem non suscipit. Cras tellus tellus, fringilla eu sapien.</div>
+                                <div className="sx-bnr-1-info">"At SyscoNex Solutions, we are passionate, inspired, and dedicated to innovation. We craft smart, efficient, and future-ready IT solutions to help businesses grow and succeed."</div>
                                 <div className="sx-bnr-readmore">
                                     <NavLink to="/about-us" className="site-button sx-btn-primary icon">
                                         <i className="fa  fa-long-arrow-right" />
@@ -52,7 +52,7 @@ function SectionSlider1() {
                             <div className="sx-bnr-1-content">
                                 <span className="sx-bnr-1-small-title" data-swiper-parallax="-300">We are The best</span>
                                 <h2 className="sx-bnr-1-large-title">We are ready To IT Solution Work.</h2>
-                                <div className="sx-bnr-1-info">Fusce lacinia elit odio, id pulvinar erat placerat vitae. Sed quis aliquet neque. Aenean placerat condimentum lorem non suscipit. Cras tellus tellus, fringilla eu sapien.</div>
+                                <div className="sx-bnr-1-info">"At SyscoNex Solutions, we make IT simple, smart, and powerful. From innovation to execution, we build solutions that drive success. Let’s create the future together!"</div>
                                 <div className="sx-bnr-readmore">
                                     <NavLink to="/about-us" className="site-button sx-btn-primary icon">
                                         <i className="fa  fa-long-arrow-right" />
