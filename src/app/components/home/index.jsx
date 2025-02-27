@@ -23,7 +23,7 @@ function Home1Page() {
             <SectionAboutCompany1 />
             <SectionWhyChooseUs1 />
             <SectionVideo1 />
-            <SectionPricing1 />
+            {/* <SectionPricing1 /> */}
             <SectionClients1 />
             <SectionCaseStudy1 />
             <SectionBlogs1 />
