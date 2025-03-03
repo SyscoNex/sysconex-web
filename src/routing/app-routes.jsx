@@ -21,6 +21,7 @@ import ContactUsPage from "../app/components/contactus/contact-us";
 import Home1Page from "../app/components/home/index";
 import Home2Page from "../app/components/home/index2";
 import Home3Page from "../app/components/home/index3";
+import SiteUpdateNotice from "../app/components/siteupdatenotice/siteupdatenotice";
 
 function AppRoutes() {
     return (
@@ -49,6 +50,7 @@ function AppRoutes() {
                 <Route path="/blogs/detail-with-sidebar" element={<BlogDetailSidebarPage />} />
                 <Route path="/blogs/detail" element={<BlogDetailPage />} />
                 <Route path="/contact-us" element={<ContactUsPage />} />
+                <Route path="/updatenotice" element={<SiteUpdateNotice />} />
             </Routes>
         </>
     )
