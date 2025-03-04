@@ -13,7 +13,7 @@ function RootLayout() {
     return (
         <>
             <div className="page-wraper">
-                {/* {
+                {
                     (pathname === "/index2" && <Header2 />) ||
                     (pathname === "/index3" && <Header3 />) ||
                     <Header1 />
@@ -25,9 +25,9 @@ function RootLayout() {
 
                 
 
-                <Footer /> */}
+                <Footer /> 
                 <div className="page-content">
-                    <SiteUpdateNotice />
+                    {/*<SiteUpdateNotice />*/}
                 </div>
 
                 <button className="scroltop"><span className="fa fa-angle-up  relative" id="btn-vibrate"></span></button>

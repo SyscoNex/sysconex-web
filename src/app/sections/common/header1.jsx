@@ -121,11 +121,11 @@ function Header1() {
                                 <ul className=" nav navbar-nav ">
                                     <li className="active">
                                         <NavLink to="/index">Home</NavLink>
-                                        <ul className="sub-menu">
+                                        {/*<ul className="sub-menu">
                                             <li><NavLink to="/index">Home-1</NavLink></li>
                                             <li><NavLink to="/index2">Home-2</NavLink></li>
                                             <li><NavLink to="/index3">Home-3</NavLink></li>
-                                        </ul>
+                                        </ul>*/}
                                     </li>
                                     <li>
                                         <NavLink to="/about-us">Company</NavLink>
