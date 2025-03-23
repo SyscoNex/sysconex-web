@@ -6604,6 +6604,11 @@ scale-in-center
 	animation: bounce-in-fwd 1.1s both;
 }
 
+.hover-animation-11:hover .scale-in-center {
+	-webkit-animation: bounce-in-fwd 5.1s both;
+	animation: bounce-in-fwd 5.1s both;
+}
+
 @-webkit-keyframes bounce-in-fwd {
 	0% {
 		-webkit-transform: scale(0);
@@ -7345,7 +7350,7 @@ New Template Css Start
 /*Video Section*/
 .sx-video-1-outer,
 .sx-video-2-outer{
-	padding: 190px 0px;
+	padding: 10px 0px;
 }
 .sx-video-1-outer .sx-bg-overlay{
 	background-color: #291E3B;
