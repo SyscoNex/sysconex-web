@@ -43,6 +43,7 @@ function Header1() {
                                             En
                                         </button>
                                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            {/*
                                             <li>
                                                 <div className="sl-flag">
                                                     <div className="c-name">
@@ -67,6 +68,7 @@ function Header1() {
                                                 </div>
                                                 <span className="active">Spain</span>
                                             </li>
+                                            */}
                                             <li>
                                                 <div className="sl-flag">
                                                     <div className="c-name">
@@ -122,9 +124,9 @@ function Header1() {
                                     <li className="active">
                                         <NavLink to="/index">Home</NavLink>
                                         <ul className="sub-menu">
-                                            <li><NavLink to="/index">Home-1</NavLink></li>
+                                            {/* <li><NavLink to="/index">Home-1</NavLink></li>
                                             <li><NavLink to="/index2">Home-2</NavLink></li>
-                                            <li><NavLink to="/index3">Home-3</NavLink></li>
+                                            <li><NavLink to="/index3">Home-3</NavLink></li> */}
                                         </ul>
                                     </li>
                                     <li>
@@ -167,7 +169,6 @@ function Header1() {
                     </div>
                 </div>
             </header >
-
         </>
     )
 }
