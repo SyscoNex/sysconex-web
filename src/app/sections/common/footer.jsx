@@ -10,14 +10,14 @@ function Footer() {
                         <div className="row">
                             <div className="col-lg-6 col-md-12">
                                 <h2 className="sx-f-title">
-                                    You too join my communities.
+                                    Feel free to contact us.
                                 </h2>
                             </div>
                             <div className="col-lg-6 col-md-12">
                                 <div className="sx-nl-form">
                                     <form>
                                         <div className="sx-nl-form-inner">
-                                            <input type="text" className="sx-nl-form-input" placeholder="infomela.Itodo@gmail.com" />
+                                            <input type="text" className="sx-nl-form-input" placeholder="sysconex.solutions@gmail.com" />
                                             <button className="sx-nl-form-btn"><i className="flaticon-back-left" /></button>
                                         </div>
                                     </form>
@@ -34,23 +34,21 @@ function Footer() {
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="widget widget_about">
                                     <div className="logo-footer clearfix p-b15">
-                                        <NavLink to="/index" className="sx-text-primary"><ItodoImage src="images/footer-logo.png" alt="#" /></NavLink>
+                                        <NavLink to="/index" className="sx-text-primary"><ItodoImage src="images/logo.png" alt="#" /></NavLink>
                                     </div>
-                                    <p>Pellentesque in commodo elit. Nunc tincidun
-                                        sapien eget condimentum. Vivamus aliquam
-                                        sollicitudin purus. Quisque sem leo.
+                                    <p>To craft cutting-edge software and AI-driven solutions that drive growth, efficiency, and digital transformation.
                                     </p>
                                     <div className="widget_about-call-section">
                                         <div className="sx-f-call-icon"><i className="flaticon-telephone" /></div>
                                         <div className="sx-f-call-section">
                                             <span>Contact us 24/7</span>
-                                            <a href="tel:+55(990)66622">+55 (990) 666 22</a>
+                                            <a href="tel:+55(990)66622">+94 761 176 061</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             {/* EXPLORE LINKS */}
-                            <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-6 col">
+                            {/* <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-6 col">
                                 <div className="widget widget_services">
                                     <h4 className="sx-f-title">Explore Links</h4>
                                     <ul>
@@ -61,9 +59,9 @@ function Footer() {
                                         <li><NavLink to="/blogs">News</NavLink></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* USEFUL LINK */}
-                            <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-6 col">
+                            {/* <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-6 col">
                                 <div className="widget widget_services">
                                     <h4 className="sx-f-title">Useful Links</h4>
                                     <ul>
@@ -74,9 +72,9 @@ function Footer() {
                                         <li><NavLink to="/portfolio/detail">Case Studies V2</NavLink></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* SOLUTIONS */}
-                            <div className="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-12 col footer-col-3">
+                            {/* <div className="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-12 col footer-col-3">
                                 <div className="widget widget_info">
                                     <h4 className="sx-f-title">Solutions</h4>
                                     <ul>
@@ -107,9 +105,9 @@ function Footer() {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* CONTACT US */}
-                            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                            {/* <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                                 <div className="widget widget_insta-gallery">
                                     <h4 className="sx-f-title">Instagram</h4>
                                     <ul>
@@ -163,7 +161,7 @@ function Footer() {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -193,7 +191,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="sx-f-copy">
-                        © 2023 by <NavLink to="/index">Itodo.</NavLink> All rights reserved.
+                        © 2025 by <NavLink to="/index">Sysconex.</NavLink> All rights reserved.
                     </div>
                 </div>
                 {/* FOOTER COPYRIGHT */}

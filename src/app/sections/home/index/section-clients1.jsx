@@ -11,27 +11,27 @@ function SectionClients1() {
                             <div className="row justify-content-center grid-5 ">
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-4">
                                     <NavLink to="/contact-us" className="client-logo-pic2">
-                                        <ItodoImage src="images/client-logo/white/client-logo-1.png" alt="" />
+                                        <ItodoImage src="images/client-logo/white/icons8-java-250.png" alt="" />
                                     </NavLink>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-4">
                                     <NavLink to="/contact-us" className="client-logo-pic2">
-                                        <ItodoImage src="images/client-logo/white/client-logo-2.png" alt="" />
+                                        <ItodoImage src="images/client-logo/white/icons8-.net-framework-300.png" alt="" />
                                     </NavLink>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-4">
                                     <NavLink to="/contact-us" className="client-logo-pic2">
-                                        <ItodoImage src="images/client-logo/white/client-logo-3.png" alt="" />
+                                        <ItodoImage src="images/client-logo/white/Untitled design (9).png" alt="" />
                                     </NavLink>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-4">
                                     <NavLink to="/contact-us" className="client-logo-pic2">
-                                        <ItodoImage src="images/client-logo/white/client-logo-4.png" alt="" />
+                                        <ItodoImage src="images/client-logo/white/Untitled design (5).png" alt="" />
                                     </NavLink>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-4">
                                     <NavLink to="/contact-us" className="client-logo-pic2">
-                                        <ItodoImage src="images/client-logo/white/client-logo-5.png" alt="" />
+                                        <ItodoImage src="images/client-logo/white/Untitled design (10).png" alt="" />
                                     </NavLink>
                                 </div>
                             </div>
