@@ -31,9 +31,9 @@ function Header1() {
                             <div className="sx-topbar-right">
                                 <div className="top-bar-nav">
                                     <ul>
-                                        <li><NavLink to="/about-us">Terms &amp; Condition</NavLink></li>
-                                        <li><NavLink to="/faq">Privacy Policy</NavLink></li>
-                                        <li><NavLink to="/contact-us">Contact Us</NavLink></li>
+                                        <li><NavLink to="">Terms &amp; Condition</NavLink></li>
+                                        <li><NavLink to="">Privacy Policy</NavLink></li>
+                                        <li><NavLink to="">Contact Us</NavLink></li>
                                     </ul>
                                 </div>
                                 <div className="sx-language-dd dropdown">
@@ -43,6 +43,7 @@ function Header1() {
                                             En
                                         </button>
                                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            {/*
                                             <li>
                                                 <div className="sl-flag">
                                                     <div className="c-name">
@@ -67,6 +68,7 @@ function Header1() {
                                                 </div>
                                                 <span className="active">Spain</span>
                                             </li>
+                                            */}
                                             <li>
                                                 <div className="sl-flag">
                                                     <div className="c-name">
@@ -121,15 +123,15 @@ function Header1() {
                                 <ul className=" nav navbar-nav ">
                                     <li className="active">
                                         <NavLink to="/index">Home</NavLink>
-                                        <ul className="sub-menu">
+                                        {/*<ul className="sub-menu">
                                             <li><NavLink to="/index">Home-1</NavLink></li>
                                             <li><NavLink to="/index2">Home-2</NavLink></li>
                                             <li><NavLink to="/index3">Home-3</NavLink></li>
-                                        </ul>
+                                        </ul>*/}
                                     </li>
                                     <li>
                                         <NavLink to="/about-us">Company</NavLink>
-                                        <ul className="sub-menu">
+                                        {/* <ul className="sub-menu">
                                             <li><NavLink to="/about-us">About Us</NavLink></li>
                                             <li><NavLink to="/faq">Faq Page</NavLink></li>
                                             <li><NavLink to="/gallery">Gallery</NavLink></li>
@@ -138,27 +140,27 @@ function Header1() {
                                             <li><NavLink to="/why-choose-us">Why Choose Us</NavLink></li>
                                             <li><NavLink to="/pricing">Pricing</NavLink></li>
                                             <li><NavLink to="/team">Team</NavLink></li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     <li>
                                         <NavLink to="/mission">IT Solutions</NavLink>
-                                        <ul className="sub-menu">
+                                        {/* <ul className="sub-menu">
                                             <li><NavLink to="/mission">Mission &amp; Vision</NavLink></li>
                                             <li><NavLink to="/services">Services</NavLink></li>
                                             <li><NavLink to="/services/detail">Services Detail</NavLink></li>
                                             <li><NavLink to="/portfolio">Portfolio</NavLink></li>
                                             <li><NavLink to="/portfolio2">Portfolio-2</NavLink></li>
                                             <li><NavLink to="/portfolio/detail">Portfolio Detail</NavLink></li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     <li>
                                         <NavLink to="/blogs">IT Blogs</NavLink>
-                                        <ul className="sub-menu">
+                                        {/* <ul className="sub-menu">
                                             <li><NavLink to="/blogs">Blog</NavLink></li>
                                             <li><NavLink to="/blogs/list">Blog Grid Sidebar </NavLink></li>
                                             <li><NavLink to="/blogs/detail-with-sidebar">Blog Detail Sidebar</NavLink></li>
                                             <li><NavLink to="/blogs/detail">Blog Detail</NavLink></li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     <li><NavLink to="/contact-us">Contact Us</NavLink></li>
                                 </ul>
@@ -167,7 +169,6 @@ function Header1() {
                     </div>
                 </div>
             </header >
-
         </>
     )
 }

@@ -25,7 +25,7 @@ function RootLayout() {
 
                 
 
-                <Footer /> */}
+                <Footer />  */}
                 <div className="page-content">
                     <SiteUpdateNotice />
                 </div>
