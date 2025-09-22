@@ -11,6 +11,39 @@ function PortfolioDetailPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
+    const $ = window.jQuery || window.$;
+    if (!$) return;
+    const $carousel = $(".sx-case-st-carousel-2");
+    try {
+      $carousel.trigger("destroy.owl.carousel");
+      $carousel.removeClass("owl-loaded owl-hidden");
+      $carousel.find(".owl-stage-outer").children().unwrap();
+      $carousel.find(".owl-stage-outer, .owl-stage, .owl-item").remove();
+    } catch (e) {
+    }
+
+    try {
+      $carousel.owlCarousel({
+        loop: true,
+        margin: 30,
+        dots: true,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        responsive: { 0: { items: 1 }, 768: { items: 2 }, 1200: { items: 3 } }
+      });
+    } catch (e) {}
+    return () => {
+      try {
+        $carousel.trigger("destroy.owl.carousel");
+        $carousel.removeClass("owl-loaded owl-hidden");
+        $carousel.find(".owl-stage-outer").children().unwrap();
+        $carousel.find(".owl-stage-outer, .owl-stage, .owl-item").remove();
+      } catch (e) {}
+    };
+  }, [slug]);
+
+  useEffect(() => {
     loadScript("js/custom.js");
   }, []);
 
@@ -23,7 +56,7 @@ function PortfolioDetailPage() {
   // Basic guard: if not found, go back to portfolio list
   useEffect(() => {
     if (!project) {
-      navigate("/portfolio1", { replace: true });
+      navigate("/portfolio", { replace: true });
     }
   }, [project, navigate]);
 
@@ -164,13 +197,13 @@ function PortfolioDetailPage() {
           <div className="s-post-pagination-control previous-next previous next">
             <div className="paging-left paging-item">
               <div className="paging-content">
-                <NavLink className="paging-link" to="/portfolio1">
+                <NavLink className="paging-link" to="/portfolio">
                   <i className="fa  fa-long-arrow-left" />
                 </NavLink>
                 <div className="paging-content-inner">
-                  <NavLink className="paging-link2" to="/portfolio1">Back to Portfolio</NavLink>
+                  <NavLink className="paging-link2" to="/portfolio">Back to Portfolio</NavLink>
                   <h4 className="paging-title">
-                    <NavLink to="/portfolio1">{project.category}</NavLink>
+                    <NavLink to="/portfolio">{project.category}</NavLink>
                   </h4>
                 </div>
               </div>
@@ -203,7 +236,7 @@ function PortfolioDetailPage() {
           </div>
 
           <div className="section-content">
-            <div className="owl-carousel sx-case-st-carousel-2 m-b30">
+            <div key={`related-${slug}`} className="owl-carousel sx-case-st-carousel-2 m-b30">
               {related.map(r => (
                 <div className="item" key={r.slug}>
                   <div className="sx-case-study-bx three-blocks sx-overlay-effect">
