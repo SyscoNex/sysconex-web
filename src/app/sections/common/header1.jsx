@@ -25,7 +25,7 @@ function Header1() {
                             <div className="sx-topbar-left">
                                 <ul className="e-p-bx">
                                     <li>sysconex.solutions@gmail.com</li>
-                                    <li><a href="tel:(1)245-45678">(+94)76-117-6061 call</a></li>
+                                    <li><a href="tel:(1)245-45678">(+94)76-117-6061</a></li>
                                 </ul>
                             </div>
                             <div className="sx-topbar-right">
@@ -110,9 +110,9 @@ function Header1() {
                             <div className="extra-nav">
                                 <div className="extra-cell">
                                     <ul className="list-unstyled social-bx d-flex flex-wrap align-content-center">
-                                        <li><a href="https://www.facebook.com/"><i className="feather-facebook" /> </a></li>
+                                        <li><a href="https://www.facebook.com/people/SyscoNex-Solutions/61578193958732/#"><i className="feather-facebook" /> </a></li>
                                         {/* <li><a href="https://twitter.com/"><i className="feather-twitter" /> </a></li> */}
-                                        <li><a href="https://www.linkedin.com/"><i className="feather-linkedin" /> </a></li>
+                                        <li><a href="https://lk.linkedin.com/company/sysconex-solutions"><i className="feather-linkedin" /> </a></li>
                                         <li><a href="https://www.instagram.com/"><i className="feather-instagram" /> </a></li>
                                     </ul>
                                 </div>
@@ -122,7 +122,7 @@ function Header1() {
                             <div className="header-nav navbar-collapse collapse d-flex justify-content-center collapse ">
                                 <ul className=" nav navbar-nav ">
                                     <li className="active">
-                                        <NavLink to="/index">Home</NavLink>
+                                        <NavLink to="/">Home</NavLink>
                                         {/*<ul className="sub-menu">
                                             <li><NavLink to="/index">Home-1</NavLink></li>
                                             <li><NavLink to="/index2">Home-2</NavLink></li>

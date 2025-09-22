@@ -166,17 +166,17 @@ function Footer() {
                     <div className="sx-f-social">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/">
+                                <a href="https://www.facebook.com/people/SyscoNex-Solutions/61578193958732/#">
                                     <i className="flaticon-facebook" />
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="https://twitter.com/">
                                     <i className="flaticon-twitter" />
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
-                                <a href="https://www.linkedin.com/">
+                                <a href="https://lk.linkedin.com/company/sysconex-solutions">
                                     <i className="flaticon-linkedin" />
                                 </a>
                             </li>
@@ -188,7 +188,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="sx-f-copy">
-                        © 2025 by <NavLink to="/index">Sysconex.</NavLink> All rights reserved.
+                        © 2025 by <NavLink to="/index">SyscoNex.</NavLink> All rights reserved.
                     </div>
                 </div>
                 {/* FOOTER COPYRIGHT */}

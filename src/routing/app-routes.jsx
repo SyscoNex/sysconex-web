@@ -39,7 +39,7 @@ function AppRoutes() {
                 <Route path="/portfolio/:slug" element={<PortfolioDetailPage />} />
                 <Route path="/contact-us" element={<ContactUsPage />} />
                 <Route path="/updatenotice" element={<SiteUpdateNotice />} />
-
+                <Route path="/index" element={<Home1Page />} />
                 <Route path="/testimonials" element={<TestimonialsPage />} />                
                 <Route path="/pricing" element={<PricingPage />} />
 
