@@ -89,7 +89,7 @@ function Header1() {
                         <div className="container clearfix">
                             <div className="logo-header">
                                 <div className="logo-header-inner logo-header-one">
-                                    <NavLink to="/index">
+                                    <NavLink to="/">
                                         <ItodoImage src="images/Logo.png" alt="" />
                                     </NavLink>
                                 </div>
