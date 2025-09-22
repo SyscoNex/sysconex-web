@@ -1,55 +1,176 @@
 [
   {
     "id": 1,
-    "slug": "blood-donation",
-    "title": "Blood Donation Project",
-    "category": "Healthcare",
-    "categoryLabel": "Apps Design",
-    "date": "2024-06-18",
+    "slug": "lixr-innovation",
+    "title": "LIXR Innovations",
+    "category": "Engineering / Fabrication",
+    "categoryLabel": "Metal Works & Design",
+    "date": "2025-08-15",
     "author": "Sysconex Team",
-    "class": "Donation",
-    "image": "images/vid-1-bg.jpg",
-    "heroImage": "images/portfolio/large-pic.jpg",
-    "portfolioLink": "/portfolio/blood-donation",
-    "siteLink": "https://blood-donation-app.example.com",
-    "summary": "End-to-end platform for coordinating blood donation drives, donor onboarding, and inventory visibility for hospitals.",
+    "class": "Custom Engineering",
+    "image": "images/portfolio/lixr-po.png",
+    "heroImage": "images/portfolio/lixr-po.png",
+    "portfolioLink": "/portfolio/lixr-innovation",
+    "siteLink": "https://lixrinnovation.com/",
+    "summary": "Precision metal works and custom engineering solutions: design, simulation, rendering, laser cutting, and welding.",
     "content": {
       "intro": [
-        "Proin finibus imperdiet nulla, quis euismod nunc gravida eget. Vestibulum iaculis nibh facilisis felis iaculis vestibulum. Curabitur purus nulla, bibendum vitae varius pulvinar, molestie in massa.",
-        "Nullam id ultricies tellus. Nulla tempor, elit ac maximus accumsan, urna arcu congue neque, non venenatis leo erat sed massa."
+        "LIXR Innovations delivers precision metal works and custom engineering solutions—covering design, simulation, rendering, laser cutting, welding, and fabrication.",
+        "They transform ideas into manufacturable designs using modern CAD tools, prototyping, and hardware integration."
       ],
       "sections": [
         {
-          "heading": "Our Success Journey We can Provide.",
+          "heading": "From Design to Reality",
           "paragraphs": [
-            "Nullam id ultricies tellus. Nulla tempor, elit ac maximus accumsan, urna arcu congue neque, non venenatis leo erat sed massa.",
-            "Maecenas ultrices lorem sed nulla scelerisque ornare. Aliquam quis orci sit amet arcu tincidunt euismod ac eget odio."
+            "LIXR takes the concept, simulates it, creates detailed renderings, and ensures manufacturability before fabrication.",
+            "They use modern equipment and tools for precision, including laser cutting and CNC machining."
           ],
-          "image": "images/portfolio/pic1.jpg"
+          "image": "images/portfolio/logo/lxr.png"
         },
         {
-          "heading": "IT Solution Business Planning system.",
+          "heading": "End-to-End Fabrication & Finishing",
           "paragraphs": [
-            "Mauris porta ligula non blandit auctor. Vestibulum ut tortor ullamcorper lacus hendrerit vestibulum.",
-            "Nullam vitae dui euismod, pulvinar mauris quis, sagittis ante. Pellentesque nec diam tincidunt, lobortis ligula eget, ultricies elit."
+            "The team handles welding, surface finishing, and quality checking to deliver ready-to-use metal products.",
+            "Every project is tailored with client feedback, ensuring both function and aesthetics are met."
           ],
-          "image": "images/portfolio/pic2.jpg"
+          "image": "images/portfolio/logo/sysconex-lg.png"
         }
       ]
     },
     "relatedSlugs": ["lms", "car-renting"]
   },
   {
-    "id": 2,
+    "id": 3,
+    "slug": "accessara",
+    "title": "Accessara",
+    "category": "E-commerce / Retail",
+    "categoryLabel": "Marketplace Design",
+    "date": "2025-05-10",
+    "author": "Sysconex Team",
+    "class": "Marketplace",
+    "image": "images/portfolio/accessara-po.png",
+    "heroImage": "images/portfolio/accessara-po.png",
+    "portfolioLink": "/portfolio/accessara",
+    "siteLink": "https://accessara.com/",
+    "summary": "Accessara is an online marketplace offering quality products at competitive prices — bridging convenience, style, and satisfaction for buyers across multiple categories.",
+    "content": {
+      "intro": [
+        "Accessara is built to make online shopping simple, stylish, and satisfying. They offer a curated range of tech, fashion, furniture, and lifestyle products with a focus on product quality and competitive pricing.",
+        "With a clean, user-centric design, the platform ensures easy navigation, secure checkout, and a seamless experience for both casual browsers and serious shoppers."
+      ],
+      "sections": [
+        {
+          "heading": "Curated Collections & Easy Shopping",
+          "paragraphs": [
+            "Products are carefully selected to match trends, functionality, and design. The site features smart filters, recommendations, and high resolution images to help users make informed choices.",
+            "Checkout is streamlined with secure payment gateways, multiple shipping options, and easy returns."
+          ],
+          "image": "images/portfolio/logo/acc.png"
+        },
+        {
+          "heading": "Responsive Design & Mobile Experience",
+          "paragraphs": [
+            "Accessara’s site is optimized for mobile and desktop — fast loading, clean UI, and intuitive UX across devices.",
+            "Mobile-friendly menus and product views ensure that customers on phones have full functionality without compromise."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["lixr-innovation", "lms"]
+  },
+  {
+    "id": 4,
+    "slug": "smt-holiday-planners",
+    "title": "SMT Holiday Planners",
+    "category": "Travel & Tourism",
+    "categoryLabel": "Travel Website",
+    "date": "2025-08-25",
+    "author": "Sysconex Team",
+    "class": "Tourism & Travel",
+    "image": "images/portfolio/smt-ho.png",
+    "heroImage": "images/portfolio/smt-ho.png",
+    "portfolioLink": "/portfolio/smt-holiday-planners",
+    "siteLink": "https://www.smtholidayplanners.com/",
+    "summary": "SMT Holiday Planners offers complete travel planning services—hotel bookings, tour packages, transportation, excursions—and creates memorable holidays tailored to your preferences.",
+    "content": {
+      "intro": [
+        "SMT Holiday Planners is your go-to travel partner, crafting custom itineraries, seamless bookings, and enriching travel experiences.",
+        "From selecting accommodations to coordinating local tours, their services are designed to make every holiday stress-free and unforgettable."
+      ],
+      "sections": [
+        {
+          "heading": "Tailored Tour Packages & Booking Services",
+          "paragraphs": [
+            "They offer a wide range of holiday packages, including family trips, honeymoon getaways, and adventure tours.",
+            "Booking services include hotels, flights, local guides, and transportation coordination."
+          ],
+          "image": "images/portfolio/logo/smt1.png"
+        },
+        {
+          "heading": "Customer-Oriented Support & Local Experiences",
+          "paragraphs": [
+            "SMT emphasizes personal touch: local guide support, curated experiences, and 24/7 customer care.",
+            "They partner with local vendors to provide authentic cultural experiences."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["lms", "accessara"]
+  },
+  
+  {
+    "id": 5,
+    "slug": "pristine-codes",
+    "title": "PristineCodes",
+    "category": "Software Development",
+    "categoryLabel": "Custom Solutions",
+    "date": "2025-08-28",
+    "author": "Sysconex Team",
+    "class": "Web & Software",
+    "image": "images/portfolio/pristinecodes-po.png",
+    "heroImage": "images/portfolio/pristinecodes-po.png",
+    "portfolioLink": "/portfolio/pristine-codes",
+    "siteLink": "https://www.pristinecodes.com/",
+    "summary": "PristineCodes specializes in clean, maintainable, and performant custom software solutions — web apps, APIs, and digital experiences tailored to client needs.",
+    "content": {
+      "intro": [
+        "PristineCodes builds custom software applications with an emphasis on code quality, scalability, and user experience.",
+        "They work across web platforms, APIs, and backend systems, delivering solutions that are designed for growth."
+      ],
+      "sections": [
+        {
+          "heading": "Custom Web Applications Built to Scale",
+          "paragraphs": [
+            "Every web app is built with maintainability in mind: modular architecture, clean code, and thorough testing.",
+            "Emphasis on user-centric design and responsive behavior across devices."
+          ],
+          "image": "images/portfolio/logo/pris.png"
+        },
+        {
+          "heading": "Robust Backend & API Integrations",
+          "paragraphs": [
+            "PristineCodes builds secure REST / GraphQL APIs, handles database architecture, and integrates with third-party services.",
+            "Security, performance, and reliability are priorities in every project."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["accessara", "lixr-innovation"]
+  },
+  {
+    "id": 6,
     "slug": "lms",
-    "title": "LMS Project",
+    "title": "LMS Project for IJLS",
     "category": "Education",
-    "categoryLabel": "Branding Design",
+    "categoryLabel": "Student Management",
     "date": "2024-03-12",
     "author": "Sysconex Team",
     "class": "Learning",
     "image": "images/projects/Logo1.png",
-    "heroImage": "images/case-study/pic-2.jpg",
+    "heroImage": "images/projects/Logo1.png",
     "portfolioLink": "/portfolio/lms",
     "siteLink": "https://student-management-system-frontend-lime.vercel.app/",
     "summary": "Learning Management System with course authoring, assessments, and analytics.",
@@ -65,7 +186,7 @@
             "Single pane for enrollment, progress, and certification.",
             "Role-based dashboards for admins, instructors, and learners."
           ],
-          "image": "images/portfolio/pic1.jpg"
+          "image": "images/portfolio/logo/ijls.png"
         },
         {
           "heading": "Scale & Observability",
@@ -73,50 +194,10 @@
             "Horizontal scaling with cloud-native services.",
             "Built-in telemetry for engagement analytics."
           ],
-          "image": "images/portfolio/pic2.jpg"
+          "image": "images/portfolio/logo/sysconex-lg.png"
         }
       ]
     },
     "relatedSlugs": ["blood-donation", "car-renting"]
-  },
-  {
-    "id": 3,
-    "slug": "car-renting",
-    "title": "Car Renting Project",
-    "category": "Car Renting",
-    "categoryLabel": "Apps Design",
-    "date": "2025-03-04",
-    "author": "Sysconex Team",
-    "class": "Mobility",
-    "image": "images/projects/Screenshot-2025-03-04-153508.png",
-    "heroImage": "images/case-study/pic-3.jpg",
-    "portfolioLink": "/portfolio/car-renting",
-    "siteLink": "https://weddingcarrenting.netlify.app/login",
-    "summary": "Self-service vehicle reservations with pricing rules, availability, and secure checkout.",
-    "content": {
-      "intro": [
-        "Integer bibendum mi ut sem tempor, in venenatis velit porta.",
-        "Etiam congue, velit quis congue efficitur, sem libero dictum felis."
-      ],
-      "sections": [
-        {
-          "heading": "Inventory & Pricing Engine",
-          "paragraphs": [
-            "Dynamic pricing by dates, demand, and vehicle class.",
-            "Block calendars to manage fleet maintenance."
-          ],
-          "image": "images/portfolio/pic1.jpg"
-        },
-        {
-          "heading": "Frictionless Checkout",
-          "paragraphs": [
-            "Secure payments and reservation management.",
-            "Email/SMS confirmations and reminders."
-          ],
-          "image": "images/portfolio/pic2.jpg"
-        }
-      ]
-    },
-    "relatedSlugs": ["lms", "blood-donation"]
   }
 ]

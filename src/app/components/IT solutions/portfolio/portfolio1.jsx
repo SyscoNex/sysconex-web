@@ -18,21 +18,22 @@ function Portfolio1Page() {
                         <div className="large-title-block">
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
-                                    <div className="section-head left">
-                                        <div className="sx-head-s-title">Our Case Study</div>
-                                        <div className="sx-head-l-title">
-                                            <h2 className="sx-title">Our Itodo IT Solution Special Case Studies.</h2>
-                                        </div>
+                                <div className="section-head left">
+                                    <div className="sx-head-s-title">Our Portfolio</div>
+                                    <div className="sx-head-l-title">
+                                    <h2 className="sx-title">Showcasing SyscoNex Innovative Projects</h2>
                                     </div>
                                 </div>
+                                </div>
                                 <div className="col-lg-6 col-md-6">
-                                    <div className="large-title-info">
-                                        <p>
-                                            Nunc tempor ultrices iaculis. Cras suscipit odio ut neque interdum, 
-                                            sed faucibus lorem feugiat. Donec a lobortis arcu. Fusce viverra 
-                                            a dolor quis tincidunt. Pellentesque vitae diam sodales nisl dapibus finibus.
-                                        </p>
-                                    </div>
+                                <div className="large-title-info">
+                                    <p>
+                                    Explore a curated selection of our completed projects across diverse 
+                                    industries. Each portfolio highlights how SyscoNex delivers scalable, 
+                                    creative, and technology-driven solutions that address real-world 
+                                    business challenges and empower our clients for the future.
+                                    </p>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +82,7 @@ function Portfolio1Page() {
                     </div>
 
                     {/* Optional Pagination (you can keep or remove) */}
-                    <div className="sx-pagination-wra text-center">
+                    {/* <div className="sx-pagination-wra text-center">
                         <ul className="sx-pagination">
                             <li><a href="#"><span className="fa fa-long-arrow-left" /></a></li>
                             <li><a href="#">01</a></li>
@@ -90,7 +91,7 @@ function Portfolio1Page() {
                             <li><a href="#">04</a></li>
                             <li><a href="#"><span className="fa fa-long-arrow-right" /></a></li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             {/* SECTION CONTENT END */}
