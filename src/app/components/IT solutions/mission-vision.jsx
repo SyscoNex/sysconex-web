@@ -8,6 +8,7 @@ import { bannerData } from "../../../globals/banner";
 import { video } from "../../../globals/data";
 import { useEffect } from "react";
 import { loadScript } from "../../../globals/constants";
+import SectionVideo2 from "../../sections/home/index2/section-video2";
 
 function MissionVisionPage() {
 
@@ -20,7 +21,7 @@ function MissionVisionPage() {
             <Banner _data={bannerData.mission} />
             <SectionAboutCompany4 />
             <SectionOurInfo2/ >
-            <SectionVideo3 _data={video.mission} />
+            <SectionVideo2 />
             <SectionTeam1 />
             <SectionClients2 />
         </>

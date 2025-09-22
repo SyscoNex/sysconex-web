@@ -25,7 +25,7 @@ function Header1() {
                             <div className="sx-topbar-left">
                                 <ul className="e-p-bx">
                                     <li>sysconex.solutions@gmail.com</li>
-                                    <li><a href="tel:(1)245-45678">(+94)76-117-6061 call</a></li>
+                                    <li><a href="tel:(1)245-45678">(+94)76-117-6061</a></li>
                                 </ul>
                             </div>
                             <div className="sx-topbar-right">
@@ -33,17 +33,17 @@ function Header1() {
                                     <ul>
                                         <li><NavLink to="">Terms &amp; Condition</NavLink></li>
                                         <li><NavLink to="">Privacy Policy</NavLink></li>
-                                        <li><NavLink to="">Contact Us</NavLink></li>
+                                        <li><NavLink to="/contact-us">Contact Us</NavLink></li>
                                     </ul>
                                 </div>
-                                <div className="sx-language-dd dropdown">
+                                {/* <div className="sx-language-dd dropdown">
                                     <div className="sl-nav-1">
                                         <div className="sx-language-first sx-title" id="FR"><b>FR</b></div>
                                         <button className="sl-nav-1-btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                             En
                                         </button>
                                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            {/*
+                                            
                                             <li>
                                                 <div className="sl-flag">
                                                     <div className="c-name">
@@ -68,7 +68,7 @@ function Header1() {
                                                 </div>
                                                 <span className="active">Spain</span>
                                             </li>
-                                            */}
+                                           
                                             <li>
                                                 <div className="sl-flag">
                                                     <div className="c-name">
@@ -79,7 +79,7 @@ function Header1() {
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -110,9 +110,9 @@ function Header1() {
                             <div className="extra-nav">
                                 <div className="extra-cell">
                                     <ul className="list-unstyled social-bx d-flex flex-wrap align-content-center">
-                                        <li><a href="https://www.facebook.com/"><i className="feather-facebook" /> </a></li>
-                                        <li><a href="https://twitter.com/"><i className="feather-twitter" /> </a></li>
-                                        <li><a href="https://www.linkedin.com/"><i className="feather-linkedin" /> </a></li>
+                                        <li><a href="https://www.facebook.com/people/SyscoNex-Solutions/61578193958732/#"><i className="feather-facebook" /> </a></li>
+                                        {/* <li><a href="https://twitter.com/"><i className="feather-twitter" /> </a></li> */}
+                                        <li><a href="https://lk.linkedin.com/company/sysconex-solutions"><i className="feather-linkedin" /> </a></li>
                                         <li><a href="https://www.instagram.com/"><i className="feather-instagram" /> </a></li>
                                     </ul>
                                 </div>
@@ -122,7 +122,7 @@ function Header1() {
                             <div className="header-nav navbar-collapse collapse d-flex justify-content-center collapse ">
                                 <ul className=" nav navbar-nav ">
                                     <li className="active">
-                                        <NavLink to="/index">Home</NavLink>
+                                        <NavLink to="/">Home</NavLink>
                                         {/*<ul className="sub-menu">
                                             <li><NavLink to="/index">Home-1</NavLink></li>
                                             <li><NavLink to="/index2">Home-2</NavLink></li>
@@ -131,37 +131,26 @@ function Header1() {
                                     </li>
                                     <li>
                                         <NavLink to="/about-us">Company</NavLink>
-                                        {/* <ul className="sub-menu">
+                                        <ul className="sub-menu">
                                             <li><NavLink to="/about-us">About Us</NavLink></li>
                                             <li><NavLink to="/faq">Faq Page</NavLink></li>
-                                            <li><NavLink to="/gallery">Gallery</NavLink></li>
+                                            {/* <li><NavLink to="/gallery">Gallery</NavLink></li>
                                             <li><NavLink to="/icons">Icons</NavLink></li>
-                                            <li><NavLink to="/testimonials">Testimonials</NavLink></li>
+                                            <li><NavLink to="/testimonials">Testimonials</NavLink></li> */}
                                             <li><NavLink to="/why-choose-us">Why Choose Us</NavLink></li>
-                                            <li><NavLink to="/pricing">Pricing</NavLink></li>
+                                            {/* <li><NavLink to="/pricing">Pricing</NavLink></li> */}
                                             <li><NavLink to="/team">Team</NavLink></li>
-                                        </ul> */}
+                                        </ul>
                                     </li>
                                     <li>
                                         <NavLink to="/mission">IT Solutions</NavLink>
-                                        {/* <ul className="sub-menu">
+                                        <ul className="sub-menu">
                                             <li><NavLink to="/mission">Mission &amp; Vision</NavLink></li>
                                             <li><NavLink to="/services">Services</NavLink></li>
-                                            <li><NavLink to="/services/detail">Services Detail</NavLink></li>
                                             <li><NavLink to="/portfolio">Portfolio</NavLink></li>
-                                            <li><NavLink to="/portfolio2">Portfolio-2</NavLink></li>
-                                            <li><NavLink to="/portfolio/detail">Portfolio Detail</NavLink></li>
-                                        </ul> */}
+                                        </ul>
                                     </li>
-                                    <li>
-                                        <NavLink to="/blogs">IT Blogs</NavLink>
-                                        {/* <ul className="sub-menu">
-                                            <li><NavLink to="/blogs">Blog</NavLink></li>
-                                            <li><NavLink to="/blogs/list">Blog Grid Sidebar </NavLink></li>
-                                            <li><NavLink to="/blogs/detail-with-sidebar">Blog Detail Sidebar</NavLink></li>
-                                            <li><NavLink to="/blogs/detail">Blog Detail</NavLink></li>
-                                        </ul> */}
-                                    </li>
+                                    
                                     <li><NavLink to="/contact-us">Contact Us</NavLink></li>
                                 </ul>
                             </div>

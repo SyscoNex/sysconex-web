@@ -6268,7 +6268,7 @@ ol.commentlist li::after {
 	vertical-align: top;
 	position: relative;
 	z-index: 2;
-	opacity: 0.2;
+	opacity: 0.5;
 }
 
 .client-logo-pic div {

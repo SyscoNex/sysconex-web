@@ -5,7 +5,7 @@ function Footer() {
     return (
         <>
             <footer className="site-footer footer-dark">
-                <div className="sx-f-nl-section">
+                {/* <div className="sx-f-nl-section">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 col-md-12">
@@ -25,7 +25,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* FOOTER BLOCKES START */}
                 <div className="footer-top">
                     <div className="container">
@@ -48,7 +48,7 @@ function Footer() {
                                 </div>
                             </div>
                             {/* EXPLORE LINKS */}
-                            {/* <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-6 col">
+                            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 col">
                                 <div className="widget widget_services">
                                     <h4 className="sx-f-title">Explore Links</h4>
                                     <ul>
@@ -56,25 +56,22 @@ function Footer() {
                                         <li><NavLink to="/team">Meet Our Team</NavLink></li>
                                         <li><NavLink to="/portfolio">Our Portfolio</NavLink></li>
                                         <li><NavLink to="/contact-us">Contact</NavLink></li>
-                                        <li><NavLink to="/blogs">News</NavLink></li>
                                     </ul>
                                 </div>
-                            </div> */}
+                            </div>
                             {/* USEFUL LINK */}
-                            {/* <div className="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-6 col">
+                            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 col">
                                 <div className="widget widget_services">
                                     <h4 className="sx-f-title">Useful Links</h4>
                                     <ul>
                                         <li><NavLink to="/mission">Mission &amp; Vision</NavLink></li>
                                         <li><NavLink to="/why-choose-us">Why Choose Us</NavLink></li>
                                         <li><NavLink to="/portfolio">Portfolio</NavLink></li>
-                                        <li><NavLink to="/portfolio2">Case Studies</NavLink></li>
-                                        <li><NavLink to="/portfolio/detail">Case Studies V2</NavLink></li>
                                     </ul>
                                 </div>
-                            </div> */}
+                            </div>
                             {/* SOLUTIONS */}
-                            {/* <div className="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-12 col footer-col-3">
+                            <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12 col footer-col-3">
                                 <div className="widget widget_info">
                                     <h4 className="sx-f-title">Solutions</h4>
                                     <ul>
@@ -83,8 +80,8 @@ function Footer() {
                                                 <i className="flaticon-phone" />
                                             </div>
                                             <div className="widget-info-detail">
-                                                <a href="tel:+55(66633)2566">+ 55 ( 66633 ) 25 66</a>
-                                                <a href="tel:+55(66633)2577">+ 55 ( 66633 ) 25 77</a>
+                                                <a href="tel:+94(76)1176061">+ 94 ( 76 ) 117 6061</a>
+                                                <a href="tel:+94(71)2758785">+ 94 ( 71 ) 275 8785</a>
                                             </div>
                                         </li>
                                         <li>
@@ -92,7 +89,7 @@ function Footer() {
                                                 <i className="flaticon-email" />
                                             </div>
                                             <div className="widget-info-detail">
-                                                <p>info.Itodo@company.com</p>
+                                                <p>sysconex.solutions@gmail.com</p>
                                             </div>
                                         </li>
                                         <li>
@@ -100,12 +97,12 @@ function Footer() {
                                                 <i className="flaticon-maps-and-flags" />
                                             </div>
                                             <div className="widget-info-detail">
-                                                <p>88 Broklyn Golden Road Street New York. USA</p>
+                                                <p>No 124, Winsant Park, Kadirana, Negombo</p>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
-                            </div> */}
+                            </div>
                             {/* CONTACT US */}
                             {/* <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                                 <div className="widget widget_insta-gallery">
@@ -169,17 +166,17 @@ function Footer() {
                     <div className="sx-f-social">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/">
+                                <a href="https://www.facebook.com/people/SyscoNex-Solutions/61578193958732/#">
                                     <i className="flaticon-facebook" />
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="https://twitter.com/">
                                     <i className="flaticon-twitter" />
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
-                                <a href="https://www.linkedin.com/">
+                                <a href="https://lk.linkedin.com/company/sysconex-solutions">
                                     <i className="flaticon-linkedin" />
                                 </a>
                             </li>
@@ -191,7 +188,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="sx-f-copy">
-                        © 2025 by <NavLink to="/index">Sysconex.</NavLink> All rights reserved.
+                        © 2025 by <NavLink to="/index">SyscoNex.</NavLink> All rights reserved.
                     </div>
                 </div>
                 {/* FOOTER COPYRIGHT */}

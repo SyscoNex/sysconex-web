@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "slug": "blood-donation",
+    "title": "Blood Donation Project",
+    "category": "Healthcare",
+    "categoryLabel": "Apps Design",
+    "date": "2024-06-18",
+    "author": "Sysconex Team",
+    "class": "Donation",
+    "image": "images/vid-1-bg.jpg",
+    "heroImage": "images/portfolio/large-pic.jpg",
+    "portfolioLink": "/portfolio/blood-donation",
+    "siteLink": "https://blood-donation-app.example.com",
+    "summary": "End-to-end platform for coordinating blood donation drives, donor onboarding, and inventory visibility for hospitals.",
+    "content": {
+      "intro": [
+        "Proin finibus imperdiet nulla, quis euismod nunc gravida eget. Vestibulum iaculis nibh facilisis felis iaculis vestibulum. Curabitur purus nulla, bibendum vitae varius pulvinar, molestie in massa.",
+        "Nullam id ultricies tellus. Nulla tempor, elit ac maximus accumsan, urna arcu congue neque, non venenatis leo erat sed massa."
+      ],
+      "sections": [
+        {
+          "heading": "Our Success Journey We can Provide.",
+          "paragraphs": [
+            "Nullam id ultricies tellus. Nulla tempor, elit ac maximus accumsan, urna arcu congue neque, non venenatis leo erat sed massa.",
+            "Maecenas ultrices lorem sed nulla scelerisque ornare. Aliquam quis orci sit amet arcu tincidunt euismod ac eget odio."
+          ],
+          "image": "images/portfolio/pic1.jpg"
+        },
+        {
+          "heading": "IT Solution Business Planning system.",
+          "paragraphs": [
+            "Mauris porta ligula non blandit auctor. Vestibulum ut tortor ullamcorper lacus hendrerit vestibulum.",
+            "Nullam vitae dui euismod, pulvinar mauris quis, sagittis ante. Pellentesque nec diam tincidunt, lobortis ligula eget, ultricies elit."
+          ],
+          "image": "images/portfolio/pic2.jpg"
+        }
+      ]
+    },
+    "relatedSlugs": ["lms", "car-renting"]
+  },
+  {
+    "id": 2,
+    "slug": "lms",
+    "title": "LMS Project",
+    "category": "Education",
+    "categoryLabel": "Branding Design",
+    "date": "2024-03-12",
+    "author": "Sysconex Team",
+    "class": "Learning",
+    "image": "images/projects/Logo1.png",
+    "heroImage": "images/case-study/pic-2.jpg",
+    "portfolioLink": "/portfolio/lms",
+    "siteLink": "https://student-management-system-frontend-lime.vercel.app/",
+    "summary": "Learning Management System with course authoring, assessments, and analytics.",
+    "content": {
+      "intro": [
+        "Cras suscipit odio ut neque interdum, sed faucibus lorem feugiat.",
+        "Donec a lobortis arcu. Fusce viverra a dolor quis tincidunt."
+      ],
+      "sections": [
+        {
+          "heading": "Unified Student Experience",
+          "paragraphs": [
+            "Single pane for enrollment, progress, and certification.",
+            "Role-based dashboards for admins, instructors, and learners."
+          ],
+          "image": "images/portfolio/pic1.jpg"
+        },
+        {
+          "heading": "Scale & Observability",
+          "paragraphs": [
+            "Horizontal scaling with cloud-native services.",
+            "Built-in telemetry for engagement analytics."
+          ],
+          "image": "images/portfolio/pic2.jpg"
+        }
+      ]
+    },
+    "relatedSlugs": ["blood-donation", "car-renting"]
+  },
+  {
+    "id": 3,
+    "slug": "car-renting",
+    "title": "Car Renting Project",
+    "category": "Car Renting",
+    "categoryLabel": "Apps Design",
+    "date": "2025-03-04",
+    "author": "Sysconex Team",
+    "class": "Mobility",
+    "image": "images/projects/Screenshot-2025-03-04-153508.png",
+    "heroImage": "images/case-study/pic-3.jpg",
+    "portfolioLink": "/portfolio/car-renting",
+    "siteLink": "https://weddingcarrenting.netlify.app/login",
+    "summary": "Self-service vehicle reservations with pricing rules, availability, and secure checkout.",
+    "content": {
+      "intro": [
+        "Integer bibendum mi ut sem tempor, in venenatis velit porta.",
+        "Etiam congue, velit quis congue efficitur, sem libero dictum felis."
+      ],
+      "sections": [
+        {
+          "heading": "Inventory & Pricing Engine",
+          "paragraphs": [
+            "Dynamic pricing by dates, demand, and vehicle class.",
+            "Block calendars to manage fleet maintenance."
+          ],
+          "image": "images/portfolio/pic1.jpg"
+        },
+        {
+          "heading": "Frictionless Checkout",
+          "paragraphs": [
+            "Secure payments and reservation management.",
+            "Email/SMS confirmations and reminders."
+          ],
+          "image": "images/portfolio/pic2.jpg"
+        }
+      ]
+    },
+    "relatedSlugs": ["lms", "blood-donation"]
+  }
+]

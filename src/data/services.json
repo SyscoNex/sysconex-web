@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "title": "Web And Desktop Application",
+    "description": "Scalable, secure, and high-performance applications tailored to your business.",
+    "icon": "flaticon-data",
+    "link": "/services/detail",
+    "slug": "web-desktop-apps",
+    "image": "images/services/bg1000.png",
+    "longDescription": [
+      "We build secure, scalable, and high-performance web and desktop applications tailored to meet your business needs.",
+      "Our process includes system architecture, UI/UX design, backend integrations, and cloud deployment, ensuring applications are future-ready."
+    ],
+    "highlights": [
+      { "icon": "flaticon-mouse-1", "title": "Information Technology", "subtitle": "Consulting" },
+      { "icon": "flaticon-download", "title": "Custom Development", "subtitle": "IT Service" },
+      { "icon": "flaticon-wordpress", "title": "Cross-platform", "subtitle": "IT Business" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Mobile Application Development",
+    "description": "Intuitive and powerful mobile apps that enhance user experience and engagement.",
+    "icon": "flaticon-programmer",
+    "link": "/services/detail",
+    "slug": "mobile-apps",
+    "image": "images/services/bg1000.png",
+    "longDescription": [
+      "We develop mobile applications for both iOS and Android using cutting-edge frameworks.",
+      "Our apps are secure, optimized, and designed for superior user experience."
+    ],
+    "highlights": [
+      { "icon": "flaticon-mouse-1", "title": "Cross-Platform", "subtitle": "React Native / Flutter" },
+      { "icon": "flaticon-download", "title": "App Store", "subtitle": "Publishing & Updates" },
+      { "icon": "flaticon-wordpress", "title": "Performance", "subtitle": "Optimized Code" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "AI & ML Based Research Applications",
+    "description": "Cutting-edge AI solutions that drive insights, automation, and innovation.",
+    "icon": "flaticon-positive-review",
+    "link": "/services/detail",
+    "slug": "ai-ml",
+    "image": "images/services/bg1000.png",
+    "longDescription": [
+      "We provide AI and ML solutions, from predictive analytics to automation and recommendation systems.",
+      "Our models are explainable, scalable, and suitable for academic or enterprise-grade deployment."
+    ],
+    "highlights": [
+      { "icon": "flaticon-mouse-1", "title": "Machine Learning", "subtitle": "Supervised / Unsupervised" },
+      { "icon": "flaticon-download", "title": "AI Consulting", "subtitle": "Research Support" },
+      { "icon": "flaticon-wordpress", "title": "Deployable", "subtitle": "API & Integrations" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Search Engine Optimization (SEO)",
+    "description": "Enhance your online visibility and drive more traffic with our expert SEO strategies.",
+    "icon": "flaticon-profit",
+    "link": "/services/detail",
+    "slug": "seo",
+    "image": "images/services/bg1000.png",
+    "longDescription": [
+      "We help businesses rank higher in search engines using on-page, off-page, and technical SEO.",
+      "Our strategies improve visibility, drive traffic, and increase conversions."
+    ],
+    "highlights": [
+      { "icon": "flaticon-mouse-1", "title": "On-Page SEO", "subtitle": "Content Optimization" },
+      { "icon": "flaticon-download", "title": "Off-Page SEO", "subtitle": "Backlinks" },
+      { "icon": "flaticon-wordpress", "title": "Technical SEO", "subtitle": "Site Health" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Networking And Linux Based Assignment",
+    "description": "Expert help with Networking and Linux assignments, from setup to security.",
+    "icon": "flaticon-chart",
+    "link": "/services/detail",
+    "slug": "networking-linux",
+    "image": "images/services/bg1000.png",
+    "longDescription": [
+      "We offer support for networking and Linux assignments including setup, configuration, and troubleshooting.",
+      "Our expertise covers Linux system administration, virtualization, and network security."
+    ],
+    "highlights": [
+      { "icon": "flaticon-mouse-1", "title": "Linux Systems", "subtitle": "Administration" },
+      { "icon": "flaticon-download", "title": "Networking", "subtitle": "Switches & Routers" },
+      { "icon": "flaticon-wordpress", "title": "Security", "subtitle": "Hardening" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Cybersecurity Projects",
+    "description": "Get expert support for cybersecurity assignments and projects.",
+    "icon": "flaticon-security",
+    "link": "/services/detail",
+    "slug": "cybersecurity",
+    "image": "images/services/bg1000.png",
+    "longDescription": [
+      "We provide expert guidance on cybersecurity projects, covering penetration testing, vulnerability scanning, and secure architecture.",
+      "Our solutions enhance security posture and ensure compliance with global standards."
+    ],
+    "highlights": [
+      { "icon": "flaticon-mouse-1", "title": "Pentesting", "subtitle": "Tools & Techniques" },
+      { "icon": "flaticon-download", "title": "Defensive Security", "subtitle": "Firewalls & IDS" },
+      { "icon": "flaticon-wordpress", "title": "Compliance", "subtitle": "ISO / GDPR" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Graphic Designing & Branding",
+    "description": "Creative and professional graphic design solutions for all your needs.",
+    "icon": "flaticon-coding",
+    "link": "/services/detail",
+    "slug": "graphic-design",
+    "image": "images/services/bg1000.png",
+    "longDescription": [
+      "We provide graphic design services including logo creation, branding kits, and UI/UX designs.",
+      "Our designs are creative, impactful, and aligned with your brand strategy."
+    ],
+    "highlights": [
+      { "icon": "flaticon-mouse-1", "title": "Logos", "subtitle": "Brand Identity" },
+      { "icon": "flaticon-download", "title": "UI/UX", "subtitle": "Web & Mobile" },
+      { "icon": "flaticon-wordpress", "title": "Marketing", "subtitle": "Posters & Flyers" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Social Marketing for your Brand",
+    "description": "Expert support for Social Marketing and boost your branding.",
+    "icon": "flaticon-smart-contracts",
+    "link": "/services/detail",
+    "slug": "social-marketing",
+    "image": "images/services/bg1000.png",
+    "longDescription": [
+      "We help brands grow on social platforms with creative campaigns and effective strategies.",
+      "Our services cover content creation, paid ads, and performance analytics."
+    ],
+    "highlights": [
+      { "icon": "flaticon-mouse-1", "title": "Content", "subtitle": "Creative Posts" },
+      { "icon": "flaticon-download", "title": "Campaigns", "subtitle": "Paid Ads" },
+      { "icon": "flaticon-wordpress", "title": "Analytics", "subtitle": "Data-driven" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Project Assistance & Explanation",
+    "description": "Get guidance & clear explanations for your projects, ensuring accuracy and success.",
+    "icon": "flaticon-smart-contracts",
+    "link": "/services/detail",
+    "slug": "project-assistance",
+    "image": "images/services/bg1000.png",
+    "longDescription": [
+      "We provide full support for projects — from initial planning to final delivery.",
+      "Our explanations help you understand every step of your project clearly and confidently."
+    ],
+    "highlights": [
+      { "icon": "flaticon-mouse-1", "title": "Guidance", "subtitle": "Step by Step" },
+      { "icon": "flaticon-download", "title": "Documentation", "subtitle": "Reports & Notes" },
+      { "icon": "flaticon-wordpress", "title": "Delivery", "subtitle": "Timely Support" }
+    ]
+  }
+]

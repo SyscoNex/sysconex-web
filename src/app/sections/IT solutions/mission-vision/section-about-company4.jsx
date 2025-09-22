@@ -9,7 +9,6 @@ function SectionAboutCompany4() {
                     <div className="section-content">
                         <SectionAboutCompany2Inner />
                         {/* Info START */}
-                        <SectionOurInfo1 />
                         {/* Info  END */}
                     </div>
                 </div>

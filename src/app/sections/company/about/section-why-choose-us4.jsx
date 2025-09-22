@@ -12,7 +12,7 @@ function SectionWhyChooseUs4() {
                         </div>
                     </div>
                 </div>
-                <SectionPricing1Inner />
+                {/* <SectionPricing1Inner /> */}
             </div>
         </>
     )

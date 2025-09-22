@@ -3,6 +3,7 @@ import SectionClients2 from "../../../sections/home/index2/section-clients2";
 import { NavLink } from "react-router-dom";
 import ItodoImage from "../../../elements/itodo-img";
 import { bannerData } from "../../../../globals/banner";
+import projectsData from "../../../../data/projects.json"; // ✅ import JSON
 
 function Portfolio1Page() {
     return (
@@ -11,144 +12,75 @@ function Portfolio1Page() {
 
             {/* SECTION CONTENT START */}
             <div className="section-full p-t100 p-b70 sx-bg-light mobile-page-padding">
-                {/* TESTIMONIAL START */}
                 <div className="container">
                     <div className="section-content">
-                        {/* TITLE START */}
                         {/*Large Title*/}
                         <div className="large-title-block">
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
-                                    {/* TITLE START */}
                                     <div className="section-head left">
                                         <div className="sx-head-s-title">Our Case Study</div>
                                         <div className="sx-head-l-title">
                                             <h2 className="sx-title">Our Itodo IT Solution Special Case Studies.</h2>
                                         </div>
                                     </div>
-                                    {/* TITLE END */}
                                 </div>
                                 <div className="col-lg-6 col-md-6">
-                                    <div className=" large-title-info">
-                                        <p>Nunc tempor ultrices iaculis. Cras suscipit odio ut neque interdum, sed faucibus lorem feugiat.
-                                            tincidunt tellus quis iaculis interdum. Donec a lobortis arcu. Fusce viverra a dolor quis tincidunt. Pellentesque vitae diam sodales nisl dapibus finibus.
+                                    <div className="large-title-info">
+                                        <p>
+                                            Nunc tempor ultrices iaculis. Cras suscipit odio ut neque interdum, 
+                                            sed faucibus lorem feugiat. Donec a lobortis arcu. Fusce viverra 
+                                            a dolor quis tincidunt. Pellentesque vitae diam sodales nisl dapibus finibus.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {/* TITLE END */}
+
+                        {/* Case Studies List from JSON */}
                         <div className="masonry-outer mfp-gallery news-grid clearfix row">
-                            {/* COLUMNS 1 */}
-                            <div className="masonry-item  col-lg-6 col-md-6 col-sm-12 m-b30">
-                                <div className="sx-case-study-bx sx-overlay-effect">
-                                    <div className="sx-case-media sx-img-overlay">
-                                        <NavLink to="/portfolio/detail"><ItodoImage src="images/case-study/pic-1.jpg" alt="" /></NavLink>
-                                        <NavLink to="/portfolio/detail" className="sx-case-link"><i className="flaticon-up-right-arrow" /></NavLink>
-                                    </div>
-                                    <div className="sx-case-info">
-                                        <div className="sx-s-title">Apps Design</div>
-                                        <NavLink className="sx-l-title" to="/portfolio/detail">
-                                            <h2 className="sx-title">IT Solution Business Mokup land</h2>
-                                        </NavLink>
-                                        <div className="sx-case-readmore">
-                                            <NavLink to="/portfolio/detail" title="READ MORE" rel="bookmark" className="site-button icon"><i className="fa  fa-long-arrow-right" />Read More</NavLink>
+                            {projectsData.map(project => (
+                                <div className="masonry-item col-lg-6 col-md-6 col-sm-12 m-b30" key={project.id}>
+                                    <div className="sx-case-study-bx sx-overlay-effect">
+                                        <div className="sx-case-media sx-img-overlay">
+                                            <NavLink to={project.portfolioLink}>
+                                                <ItodoImage src={project.image} alt={project.title} />
+                                            </NavLink>
+                                            <NavLink to={project.portfolioLink} className="sx-case-link">
+                                                <i className="flaticon-up-right-arrow" />
+                                            </NavLink>
+                                        </div>
+                                        <div className="sx-case-info">
+                                            <div className="sx-s-title">{project.category} Design</div>
+                                            <NavLink className="sx-l-title" to={project.portfolioLink}>
+                                                <h2 className="sx-title">{project.title}</h2>
+                                            </NavLink>
+                                            <div className="sx-case-readmore" style={{ display: "flex", gap: "10px" }}>
+                                                <NavLink 
+                                                    to={project.portfolioLink} 
+                                                    title="READ MORE" 
+                                                    rel="bookmark" 
+                                                    className="site-button icon"
+                                                >
+                                                    <i className="fa fa-long-arrow-right" /> Portfolio
+                                                </NavLink>
+                                                <a 
+                                                    href={project.siteLink} 
+                                                    target="_blank" 
+                                                    rel="noopener noreferrer" 
+                                                    className="site-button icon"
+                                                >
+                                                    <i className="fa fa-external-link" /> Visit Site
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            {/* COLUMNS 2 */}
-                            <div className="masonry-item  col-lg-6 col-md-6 col-sm-12 m-b30">
-                                <div className="sx-case-study-bx sx-overlay-effect">
-                                    <div className="sx-case-media sx-img-overlay">
-                                        <NavLink to="/portfolio/detail"><ItodoImage src="images/case-study/pic-2.jpg" alt="" /></NavLink>
-                                        <NavLink to="/portfolio/detail" className="sx-case-link"><i className="flaticon-up-right-arrow" /></NavLink>
-                                    </div>
-                                    <div className="sx-case-info">
-                                        <div className="sx-s-title">Branding Design</div>
-                                        <NavLink className="sx-l-title" to="/portfolio/detail">
-                                            <h2 className="sx-title">Visit Our planned modern farm</h2>
-                                        </NavLink>
-                                        <div className="sx-case-readmore">
-                                            <NavLink to="/portfolio/detail" title="READ MORE" rel="bookmark" className="site-button icon"><i className="fa  fa-long-arrow-right" />Read More</NavLink>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* COLUMNS 3 */}
-                            <div className="masonry-item  col-lg-6 col-md-6 col-sm-12 m-b30">
-                                <div className="sx-case-study-bx sx-overlay-effect">
-                                    <div className="sx-case-media sx-img-overlay">
-                                        <NavLink to="/portfolio/detail"><ItodoImage src="images/case-study/pic-3.jpg" alt="" /></NavLink>
-                                        <NavLink to="/portfolio/detail" className="sx-case-link"><i className="flaticon-up-right-arrow" /></NavLink>
-                                    </div>
-                                    <div className="sx-case-info">
-                                        <div className="sx-s-title">Apps Design</div>
-                                        <NavLink className="sx-l-title" to="/portfolio/detail">
-                                            <h2 className="sx-title">IT Solution Business Mokup land</h2>
-                                        </NavLink>
-                                        <div className="sx-case-readmore">
-                                            <NavLink to="/portfolio/detail" title="READ MORE" rel="bookmark" className="site-button icon"><i className="fa  fa-long-arrow-right" />Read More</NavLink>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* COLUMNS 4 */}
-                            <div className="masonry-item  col-lg-6 col-md-6 col-sm-12 m-b30">
-                                <div className="sx-case-study-bx sx-overlay-effect">
-                                    <div className="sx-case-media sx-img-overlay">
-                                        <NavLink to="/portfolio/detail"><ItodoImage src="images/case-study/pic-4.jpg" alt="" /></NavLink>
-                                        <NavLink to="/portfolio/detail" className="sx-case-link"><i className="flaticon-up-right-arrow" /></NavLink>
-                                    </div>
-                                    <div className="sx-case-info">
-                                        <div className="sx-s-title">Branding Design</div>
-                                        <NavLink className="sx-l-title" to="/portfolio/detail">
-                                            <h2 className="sx-title">Visit Our planned modern farm</h2>
-                                        </NavLink>
-                                        <div className="sx-case-readmore">
-                                            <NavLink to="/portfolio/detail" title="READ MORE" rel="bookmark" className="site-button icon"><i className="fa  fa-long-arrow-right" />Read More</NavLink>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* COLUMNS 5 */}
-                            <div className="masonry-item  col-lg-6 col-md-6 col-sm-12 m-b30">
-                                <div className="sx-case-study-bx sx-overlay-effect">
-                                    <div className="sx-case-media sx-img-overlay">
-                                        <NavLink to="/portfolio/detail"><ItodoImage src="images/case-study/pic-5.jpg" alt="" /></NavLink>
-                                        <NavLink to="/portfolio/detail" className="sx-case-link"><i className="flaticon-up-right-arrow" /></NavLink>
-                                    </div>
-                                    <div className="sx-case-info">
-                                        <div className="sx-s-title">Apps Design</div>
-                                        <NavLink className="sx-l-title" to="/portfolio/detail">
-                                            <h2 className="sx-title">IT Solution Business Mokup land</h2>
-                                        </NavLink>
-                                        <div className="sx-case-readmore">
-                                            <NavLink to="/portfolio/detail" title="READ MORE" rel="bookmark" className="site-button icon"><i className="fa  fa-long-arrow-right" />Read More</NavLink>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* COLUMNS 6 */}
-                            <div className="masonry-item  col-lg-6 col-md-6 col-sm-12 m-b30">
-                                <div className="sx-case-study-bx sx-overlay-effect">
-                                    <div className="sx-case-media sx-img-overlay">
-                                        <NavLink to="/portfolio/detail"><ItodoImage src="images/case-study/pic-6.jpg" alt="" /></NavLink>
-                                        <NavLink to="/portfolio/detail" className="sx-case-link"><i className="flaticon-up-right-arrow" /></NavLink>
-                                    </div>
-                                    <div className="sx-case-info">
-                                        <div className="sx-s-title">Branding Design</div>
-                                        <NavLink className="sx-l-title" to="/portfolio/detail">
-                                            <h2 className="sx-title">Visit Our planned modern farm</h2>
-                                        </NavLink>
-                                        <div className="sx-case-readmore">
-                                            <NavLink to="/portfolio/detail" title="READ MORE" rel="bookmark" className="site-button icon"><i className="fa  fa-long-arrow-right" />Read More</NavLink>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </div>
+
+                    {/* Optional Pagination (you can keep or remove) */}
                     <div className="sx-pagination-wra text-center">
                         <ul className="sx-pagination">
                             <li><a href="#"><span className="fa fa-long-arrow-left" /></a></li>
@@ -160,10 +92,9 @@ function Portfolio1Page() {
                         </ul>
                     </div>
                 </div>
-                {/* TESTIMONIAL END */}
             </div>
-            {/* SECTION CONTENT END  */}
-            
+            {/* SECTION CONTENT END */}
+
             <SectionClients2 />
         </>
     )

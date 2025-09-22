@@ -28,29 +28,40 @@ function AppRoutes() {
         <>
             <Routes>
                 <Route path="/" element={<Home1Page />} />
-                <Route path="/index" element={<Home1Page />} />
-                <Route path="/index2" element={<Home2Page />} />
-                <Route path="/index3" element={<Home3Page />} />
                 <Route path="/about-us" element={<AboutUsPage />} />
                 <Route path="/faq" element={<FAQPage />} />
-                <Route path="/gallery" element={<GalleryPage />} />
-                <Route path="/icons" element={<IconsPage />} />
-                <Route path="/testimonials" element={<TestimonialsPage />} />
-                <Route path="/why-choose-us" element={<WhyChooseUsPage />} />
-                <Route path="/pricing" element={<PricingPage />} />
                 <Route path="/team" element={<TeamPage />} />
-                <Route path="/mission" element={<MissionVisionPage />} />
+                <Route path="/why-choose-us" element={<WhyChooseUsPage />} />
                 <Route path="/services" element={<ServicesPage />} />
-                <Route path="/services/detail" element={<ServicesDetailPage />} />
+                <Route path="/services/:slug" element={<ServicesDetailPage />} />
+                <Route path="/mission" element={<MissionVisionPage />} />
                 <Route path="/portfolio" element={<Portfolio1Page />} />
-                <Route path="/portfolio2" element={<Portfolio2Page />} />
-                <Route path="/portfolio/detail" element={<PortfolioDetailPage />} />
+                <Route path="/portfolio/:slug" element={<PortfolioDetailPage />} />
+                <Route path="/contact-us" element={<ContactUsPage />} />
+                <Route path="/updatenotice" element={<SiteUpdateNotice />} />
+                <Route path="/index" element={<Home1Page />} />
+                <Route path="/testimonials" element={<TestimonialsPage />} />                
+                <Route path="/pricing" element={<PricingPage />} />
+
+
+                {/* <Route path="/index2" element={<Home2Page />} />
+                <Route path="/index3" element={<Home3Page />} />
+                
+                
+                <Route path="/gallery" element={<GalleryPage />} />
+                <Route path="/icons" element={<IconsPage />} /> */}
+                
+                
+                
+                
+                
+                {/* <Route path="/portfolio2" element={<Portfolio2Page />} />
+                
                 <Route path="/blogs" element={<BlogGridPage />} />
                 <Route path="/blogs/list" element={<BlogListSidebarPage />} />
                 <Route path="/blogs/detail-with-sidebar" element={<BlogDetailSidebarPage />} />
-                <Route path="/blogs/detail" element={<BlogDetailPage />} />
-                <Route path="/contact-us" element={<ContactUsPage />} />
-                <Route path="/updatenotice" element={<SiteUpdateNotice />} />
+                <Route path="/blogs/detail" element={<BlogDetailPage />} /> */}
+                
             </Routes>
         </>
     )
