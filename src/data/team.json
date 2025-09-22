@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "name": "Sachintha Niyangoda",
+    "role": "Managing Director & Founder",
+    "image": "images/team/sachi.png",
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "dribbble": "",
+    "behance": "",
+    "linkedin": "https://lk.linkedin.com/in/sachinthaniyangoda",
+    "portfolio": "https://sachinthahasaranga.netlify.app/",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Akash Induwara",
+    "role": "AI/ML Engineer",
+    "image": "images/team/akash2.png",
+    "facebook": "",
+    "instagram": "",
+    "dribbble": "",
+    "behance": "",
+    "linkedin": "https://lk.linkedin.com/in/akash-induruwa-99a97a250",
+    "portfolio": "",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Sahan Thilakarathne",
+    "role": "Software Engineer",
+    "image": "images/team/sahan2.png",
+    "facebook": "https://www.facebook.com/sachinthahasaranga.sachintha",
+    "instagram": "https://www.instagram.com/",
+    "dribbble": "https://twitter.com/",
+    "behance": "https://twitter.com/",
+    "linkedin": "https://lk.linkedin.com/in/sahan-pradeeptha-thilakaratne-a5b2951b2",
+    "portfolio": "",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Hansindu Abeykoon",
+    "role": "Software Engineer",
+    "image": "images/team/hani.png",
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://sachinthahasaranga.netlify.app/",
+    "dribbble": "",
+    "behance": "",
+    "linkedin": "https://www.linkedin.com/in/hansindu-01?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    "portfolio": "",
+    "featured": true
+    
+  },
+  {
+    "id": 5,
+    "name": "Dinusha Jayasuriya",
+    "role": "Cyber Security Specialist",
+    "image": "images/team/dinusha.png",
+    "facebook": "https://www.facebook.com/share/1BZgzDTXJF/",
+    "instagram": "https://www.instagram.com/nirmal_jayasuriya?utm_source=qr&igsh=c2Z5YnJucjBheGhp",
+    "dribbble": "",
+    "behance": "",
+    "linkedin": "https://www.linkedin.com/in/dinusha-jayasuriya?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "portfolio": "",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "name": "Kavishi Sirisena",
+    "role": "Marketing Manager",
+    "image": "images/team/kavishi.png",
+    "facebook": "",
+    "instagram": "",
+    "dribbble": "",
+    "behance": "",
+    "linkedin": "http://www.linkedin.com/in/kavishi-divyanjali-690b96214",
+    "portfolio": "",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "name": "Kavindu Tissera",
+    "role": "AI/ML Engineer",
+    "image": "images/team/kavindu.png",
+    "facebook": "https://www.facebook.com/kavindutisseraofficial/?locale=gn_PY",
+    "instagram": "https://www.instagram.com/kavindutisseraofficial/",
+    "dribbble": "",
+    "behance": "",
+    "linkedin": "https://lk.linkedin.com/in/kavindutissera",
+    "portfolio": "",
+    "featured": false
+  }
+  
+]

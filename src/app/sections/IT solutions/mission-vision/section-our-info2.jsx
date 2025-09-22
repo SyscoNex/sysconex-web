@@ -7,72 +7,73 @@ function SectionOurInfo2() {
                 <div className="container">
                     <div className="section-content">
                         <div className="row sx-our-info-content-wrap">
-                            {/*One block*/}
+                            {/* Left column */}
                             <div className="col-lg-4 col-md-4">
                                 <div className="sx-our-info-content">
                                     <ul>
                                         <li>
                                             <div className="sx-our-info-content-list left">
                                                 <span className="sx-sub-title">Working Experience</span>
-                                                <h3 className="sx-bx-title">8+ Years Experience. (Accenture)</h3>
+                                                <h3 className="sx-bx-title">2+ Years in IT & Software Development</h3>
                                             </div>
                                         </li>
                                         <li>
                                             <div className="sx-our-info-content-list left">
-                                                <span className="sx-sub-title">Experience</span>
-                                                <h3 className="sx-bx-title">UX/UI Designer &amp; Frontend developer</h3>
+                                                <span className="sx-sub-title">Expertise</span>
+                                                <h3 className="sx-bx-title">Full-stack Development & Emerging Tech</h3>
                                             </div>
                                         </li>
                                         <li>
                                             <div className="sx-our-info-content-list left">
-                                                <span className="sx-sub-title">Service</span>
-                                                <h3 className="sx-bx-title">Web Template &amp; Apps Design.</h3>
+                                                <span className="sx-sub-title">Service Focus</span>
+                                                <h3 className="sx-bx-title">AI, AR/VR, Web & Mobile Solutions</h3>
                                             </div>
                                         </li>
                                         <li>
                                             <div className="sx-our-info-content-list left">
-                                                <span className="sx-sub-title">Strategy</span>
-                                                <h3 className="sx-bx-title">Brand Designer.</h3>
+                                                <span className="sx-sub-title">Approach</span>
+                                                <h3 className="sx-bx-title">Innovation with Reliability</h3>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            {/*One two*/}
+
+                            {/* Center image */}
                             <div className="col-lg-4 col-md-4">
                                 <div className="sx-our-info-media-wrap">
                                     <div className="sx-our-info-media">
-                                        <ItodoImage src="images/our-info.jpg" alt="image" />
+                                        <ItodoImage src="images/t1.png" alt="Sysconex Info" />
                                     </div>
                                 </div>
                             </div>
-                            {/*One three*/}
+
+                            {/* Right column */}
                             <div className="col-lg-4 col-md-4">
                                 <div className="sx-our-info-content">
                                     <ul>
                                         <li>
                                             <div className="sx-our-info-content-list right">
                                                 <span className="sx-sub-title">Contact</span>
-                                                <h3 className="sx-bx-title">inf.kali@gmail.com
-                                                    +99 555 66 22 00</h3>
+                                                <h3 className="sx-bx-title">sysconex.solutions@gmail.com<br />+94 77 123 4567</h3>
                                             </div>
                                         </li>
                                         <li>
                                             <div className="sx-our-info-content-list right">
                                                 <span className="sx-sub-title">Location</span>
-                                                <h3 className="sx-bx-title">House 03, Paris, United Kingdom.</h3>
+                                                <h3 className="sx-bx-title">Negombo, Sri Lanka</h3>
                                             </div>
                                         </li>
                                         <li>
                                             <div className="sx-our-info-content-list right">
-                                                <span className="sx-sub-title">Education</span>
-                                                <h3 className="sx-bx-title">BSE in computer science.</h3>
+                                                <span className="sx-sub-title">Expert Team</span>
+                                                <h3 className="sx-bx-title">Software Engineers, Researchers & Designers</h3>
                                             </div>
                                         </li>
                                         <li>
                                             <div className="sx-our-info-content-list right">
-                                                <span className="sx-sub-title">Social Icon</span>
-                                                <h3 className="sx-bx-title">Facebook, Linkdin, Instagram.</h3>
+                                                <span className="sx-sub-title">Connect</span>
+                                                <h3 className="sx-bx-title">Facebook · LinkedIn · Instagram</h3>
                                             </div>
                                         </li>
                                     </ul>
@@ -82,7 +83,6 @@ function SectionOurInfo2() {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

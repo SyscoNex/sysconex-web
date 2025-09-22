@@ -1,110 +1,110 @@
 export const bannerData = {
     about: {
-        background: "images/banner/bnr-7.jpg",
+        background: "images/banner/bnr1.png",
         title: "About Us",
         crumb: "About Us",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     faq: {
-        background: "images/banner/bnr-4.jpg",
+        background: "images/banner/bnr1.png",
         title: "Faq Page",
         crumb: "Faq Page",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     gallery: {
         background: "images/banner/bnr-2.jpg",
         title: "Gallery Page",
         crumb: "Gallery Page",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     icons: {
         background: "images/banner/bnr-4.jpg",
         title: "Icons",
         crumb: "icon-font",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     testimonials: {
         background: "images/banner/bnr-3.jpg",
         title: "Testimonials",
         crumb: "Testimonials",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     whychooseus: {
-        background: "images/banner/bnr-8.jpg",
+        background: "images/banner/bnr1.png",
         title: "Why Choose us",
         crumb: "Why Choose us",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     pricing: {
         background: "images/banner/bnr-7.jpg",
         title: "Price Table",
         crumb: "Price Table",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     team: {
-        background: "images/banner/bnr-2.jpg",
+        background: "images/banner/bnr1.png",
         title: "Team Member",
         crumb: "Team Member",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     mission: {
-        background: "images/banner/bnr-7.jpg",
+        background: "images/banner/bnr1.png",
         title: "Mission & Vision",
         crumb: "Mission & Vision",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     services: {
-        background: "images/banner/bnr-7.jpg",
+        background: "images/banner/bnr1.png",
         title: "Our Services",
         crumb: "Our Services",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     portfolio1: {
-        background: "images/banner/bnr-4.jpg",
+        background: "images/banner/bnr1.png",
         title: "Portfolio Page",
         crumb: "Portfolio",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     portfolio2: {
         background: "images/banner/bnr-5.jpg",
         title: "Portfolio-2 Page",
         crumb: "Portfolio-2 Page",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     portfoliodetail: {
-        background: "images/banner/bnr-7.jpg",
+        background: "images/banner/bnr1.png",
         title: "Portfolio Detail",
         crumb: "Portfolio Detail",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     bloggrid: {
         background: "images/banner/bnr-1.jpg",
         title: "Blog Page",
         crumb: "Blog Page",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     bloglistsidebar: {
         background: "images/banner/bnr-8.jpg",
         title: "Blog Archive",
         crumb: "Blog Single Grid",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     blogdetail: {
         background: "images/banner/bnr-1.jpg",
         title: "Blog detail",
         crumb: "Blog detail",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     blogdetailsidebar: {
         background: "images/banner/bnr-10.jpg",
         title: "Blog detail",
         crumb: "Blog detail",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     },
     contact: {
-        background: "images/banner/bnr-6.jpg",
+        background: "images/banner/bnr1.png",
         title: "Contact Us",
         crumb: "Contact Us",
-        watermark: "It Solution"
+        watermark: "SyscoNex"
     }
 }

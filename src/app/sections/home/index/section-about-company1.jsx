@@ -16,7 +16,7 @@ function SectionAboutCompany1() {
                                         <div className="sx-ab-img-outer">
                                             <div className="sx-ab-img-section-1-wrap">
                                                 <div className="sx-ab-video">
-                                                    <a href="https://www.youtube.com/watch?v=c1XNqw2gSbU" className="mfp-video circle">
+                                                    <a href="https://www.youtube.com/watch?v=kri-sRUtwVE" className="mfp-video circle">
                                                         <i className="flaticon-play" />
                                                     </a>
                                                 </div>
