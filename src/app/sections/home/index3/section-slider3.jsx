@@ -35,7 +35,7 @@ function SectionSlider3() {
                                     </NavLink>
                                 </div>
                                 <div className="sx-bnr-video">
-                                    <a href="https://www.youtube.com/watch?v=c1XNqw2gSbU" className="mfp-video circle">
+                                    <a href="https://www.youtube.com/watch?v=SW6LPE99aII" className="mfp-video circle">
                                         <i className="flaticon-play" />
                                     </a>
                                 </div>
@@ -60,7 +60,7 @@ function SectionSlider3() {
                                     </NavLink>
                                 </div>
                                 <div className="sx-bnr-video">
-                                    <a href="https://www.youtube.com/watch?v=c1XNqw2gSbU" className="mfp-video circle">
+                                    <a href="https://www.youtube.com/watch?v=SW6LPE99aII" className="mfp-video circle">
                                         <i className="flaticon-play" />
                                     </a>
                                 </div>

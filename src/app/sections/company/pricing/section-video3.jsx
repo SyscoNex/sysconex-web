@@ -7,7 +7,7 @@ function SectionVideo3({_data}) {
                 <div className="container">
                     <div className="sx-vodeo-section text-center">
                         <div className="sx-video-btn-wrap">
-                            <a href="https://www.youtube.com/watch?v=c1XNqw2gSbU" className="mfp-video circle">
+                            <a href="https://www.youtube.com/watch?v=SW6LPE99aII" className="mfp-video circle">
                                 <i className="flaticon-play" />
                             </a>
                         </div>

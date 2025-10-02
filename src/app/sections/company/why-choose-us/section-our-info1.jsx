@@ -31,7 +31,7 @@ function SectionOurInfo1() {
                                 </div>
                                 <div className="sx-mv-img-section-1-wrap">
                                     <div className="sx-mv-video">
-                                        <a href="https://www.youtube.com/watch?v=c1XNqw2gSbU" className="mfp-video circle">
+                                        <a href="https://www.youtube.com/watch?v=SW6LPE99aII" className="mfp-video circle">
                                             <i className="flaticon-play" />
                                         </a>
                                     </div>
