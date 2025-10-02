@@ -9,7 +9,7 @@ function SectionVideo1() {
                     <div className="sx-vodeo-section text-center">
                         <h2 className="sx-large-title ">We Craft Legendary Technologies</h2>
                         <div className="sx-video-btn-wrap">
-                            <a href="https://www.youtube.com/watch?v=c1XNqw2gSbU" className="mfp-video circle">
+                            <a href="https://www.youtube.com/watch?v=SW6LPE99aII" className="mfp-video circle">
                                 <i className="flaticon-play" />
                             </a>
                         </div>

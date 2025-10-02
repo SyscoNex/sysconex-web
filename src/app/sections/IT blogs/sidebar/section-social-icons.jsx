@@ -9,7 +9,7 @@ function SectionSocialIcons() {
                         <li><a href="https://www.instagram.com/"><i className="fa fa-instagram" /></a></li>
                         <li><a href="https://twitter.com/"><i className="fa fa-twitter" /></a></li>
                         <li><a href="https://www.linkedin.com/"><i className="fa fa-linkedin" /></a></li>
-                        <li><a href="https://www.youtube.com/"><i className="fa fa-youtube" /></a></li>
+                        <li><a href="https://www.youtube.com/watch?v=SW6LPE99aII"><i className="fa fa-youtube" /></a></li>
                     </ul>
                 </div>
             </div>

@@ -49,7 +49,7 @@ function BlogListSidebarPage() {
                             <div className="sx-latest-post-st-1 m-b50">
                                 <div className="sx-post-media sx-img-effect img-reflection">
                                     <NavLink to="/blogs/detail"><ItodoImage src="images/blog/blog-grid-sidebar/pic2.jpg" alt="Image" /></NavLink>
-                                    <NavLink to="/https://www.youtube.com/watch?v=c1XNqw2gSbU" className="mfp-video circle-small">
+                                    <NavLink to="/https://www.youtube.com/watch?v=SW6LPE99aII" className="mfp-video circle-small">
                                         <i className="fa fa-play" />
                                     </NavLink>
                                 </div>
@@ -96,7 +96,7 @@ function BlogListSidebarPage() {
                             <div className="sx-latest-post-st-1 m-b50">
                                 <div className="sx-post-media sx-img-effect img-reflection">
                                     <NavLink to="/blogs/detail"><ItodoImage src="images/blog/blog-grid-sidebar/pic3.jpg" alt="Image" /></NavLink>
-                                    <NavLink to="/https://www.youtube.com/watch?v=c1XNqw2gSbU" className="mfp-video circle-small">
+                                    <NavLink to="/https://www.youtube.com/watch?v=SW6LPE99aII" className="mfp-video circle-small">
                                         <i className="fa fa-play" />
                                     </NavLink>
                                 </div>
