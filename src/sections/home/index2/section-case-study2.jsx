@@ -14,7 +14,7 @@ function SectionCaseStudy2() {
                                 <div className="section-head left">
                                     <div className="sx-head-s-title">Our Case Study</div>
                                     <div className="sx-head-l-title">
-                                        <h2 className="sx-title">Our Itodo IT Solution Special Case Studies.</h2>
+                                        <h2 className="sx-title">Our SyscoNex IT Solution Special Case Studies.</h2>
                                     </div>
                                 </div>
                                 {/* TITLE END */}

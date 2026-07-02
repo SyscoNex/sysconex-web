@@ -17,7 +17,7 @@ function SectionAboutCompany2Inner() {
                             </div>
                             <div className="sx-ab-circle-box">
                                 <div className="sx-ab-circle-box-content">
-                                    <span className="sx-exp">Sysconex</span>
+                                    <span className="sx-exp">SyscoNex</span>
                                     <div className="sx-exp-title-outer">
                                         <span className="sx-exp-title-1">Mission</span>
                                         <span className="sx-exp-title-2">& Vision</span>
@@ -36,7 +36,7 @@ function SectionAboutCompany2Inner() {
                             {/* Mission */}
                             <h4 className="m-t20">Mission 🎯 </h4>
                             <p>
-                                At Sysconex, our mission is to deliver reliable, innovative, and scalable IT solutions that empower businesses and individuals. 
+                                At SyscoNex, our mission is to deliver reliable, innovative, and scalable IT solutions that empower businesses and individuals. 
                                 We aim to bridge technology with real-world challenges, ensuring efficiency, security, and growth for our clients.
                             </p>
 

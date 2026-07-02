@@ -39,19 +39,19 @@ function Portfolio1Page() {
                         </div>
 
                         {/* Case Studies List from JSON */}
-                        <div className="masonry-outer mfp-gallery news-grid clearfix row">
+                        <div className="masonry-outer mfp-gallery news-grid clearfix row" style={{ display: "flex", flexWrap: "wrap", alignItems: "stretch" }}>
                             {projectsData.map(project => (
-                                <div className="masonry-item col-lg-6 col-md-6 col-sm-12 m-b30" key={project.id}>
-                                    <div className="sx-case-study-bx sx-overlay-effect">
-                                        <div className="sx-case-media sx-img-overlay">
-                                            <NavLink to={project.portfolioLink}>
-                                                <ItodoImage src={project.image} alt={project.title} />
-                                            </NavLink>
+                                <div className="masonry-item col-lg-6 col-md-6 col-sm-12 m-b30" key={project.id} style={{ display: "flex" }}>
+                                    <div className="sx-case-study-bx sx-overlay-effect" style={{ display: "flex", flexDirection: "column", width: "100%" }}>
+                                        <div className="sx-case-media sx-img-overlay" style={{ height: "280px", overflow: "hidden", flexShrink: 0 }}>
+                                             <NavLink to={project.portfolioLink} style={{ display: "block", height: "100%" }}>
+                                                <ItodoImage src={project.image} alt={project.title} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+                                             </NavLink>
                                             <NavLink to={project.portfolioLink} className="sx-case-link">
                                                 <i className="flaticon-up-right-arrow" />
                                             </NavLink>
                                         </div>
-                                        <div className="sx-case-info">
+                                        <div className="sx-case-info" style={{ flexGrow: 1 }}>
                                             <div className="sx-s-title">{project.category} Design</div>
                                             <NavLink className="sx-l-title" to={project.portfolioLink}>
                                                 <h2 className="sx-title">{project.title}</h2>
@@ -65,6 +65,7 @@ function Portfolio1Page() {
                                                 >
                                                     <i className="fa fa-long-arrow-right" /> Portfolio
                                                 </NavLink>
+                                                {project.siteLink && (
                                                 <a 
                                                     href={project.siteLink} 
                                                     target="_blank" 
@@ -73,6 +74,7 @@ function Portfolio1Page() {
                                                 >
                                                     <i className="fa fa-external-link" /> Visit Site
                                                 </a>
+                                                )}
                                             </div>
                                         </div>
                                     </div>

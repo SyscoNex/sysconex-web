@@ -6,6 +6,7 @@ import Loader from "../elements/loader";
 import ScrollToTop from "../elements/scroll-to-top";
 import Footer from "../sections/common/footer";
 import Header1 from "../sections/common/header1";
+import "./globals.css";
 
 export default function RootLayout({ children }) {
   const [isLoading, setLoading] = useState(true);
@@ -22,8 +23,8 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="keywords" content="SyscoNex Solutions, IT solutions Sri Lanka, Web development Negombo, Mobile app development, AI research applications, Machine learning solutions, Cybersecurity projects Sri Lanka, Networking and Linux assignments, SEO services, Graphic design Sri Lanka, Branding and social media marketing" />
-        <meta name="description" content="SyscoNex Solutions is a leading IT solutions provider based in Sri Lanka. We specialize in web and mobile app development, AI & ML applications, cybersecurity projects, networking, SEO, graphic design, and branding. Delivering innovative, scalable, and secure solutions for businesses worldwide." />
+        <meta name="keywords" content="SyscoNex Solutions, technology consultancy Sri Lanka, Web & Mobile development Negombo, AI & Machine Learning solutions, Cybersecurity Sri Lanka, Networking and Linux Systems, SEO services, Graphic design Sri Lanka, Branding and digital marketing" />
+        <meta name="description" content="SyscoNex Solutions is a Sri Lanka-based technology consultancy delivering innovative, scalable, and secure IT and digital marketing solutions worldwide." />
         <meta name="author" content="SyscoNex Solutions" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="SyscoNex Solutions - Innovative IT Solutions in Sri Lanka" />

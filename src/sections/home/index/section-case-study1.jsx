@@ -37,10 +37,10 @@ function SectionCaseStudy1() {
                             {projectsData.map(project => (
                                 <div className="item" key={project.id}>
                                     <div className="sx-case-study-bx sx-overlay-effect">
-                                        <div className="sx-case-media sx-img-overlay">
+                                        <div className="sx-case-media sx-img-overlay" style={{ height: "260px", overflow: "hidden", flexShrink: 0 }}>
                                             {/* Portfolio link */}
-                                            <NavLink to={project.portfolioLink}>
-                                                <ItodoImage src={project.image} alt={project.title} />
+                                            <NavLink to={project.portfolioLink} style={{ display: "block", height: "100%" }}>
+                                                <ItodoImage src={project.image} alt={project.title} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
                                             </NavLink>
                                             <NavLink to={project.portfolioLink} className="sx-case-link">
                                                 <i className="flaticon-up-right-arrow" />
@@ -67,6 +67,7 @@ function SectionCaseStudy1() {
                                                 </NavLink>
 
                                                 {/* External Site Link */}
+                                                {project.siteLink && (
                                                 <a 
                                                     href={project.siteLink} 
                                                     target="_blank" 
@@ -76,6 +77,7 @@ function SectionCaseStudy1() {
                                                 >
                                                     <i className="fa fa-external-link" /> Visit Site
                                                 </a>
+                                                )}
                                             </div>
                                         </div>
                                     </div>

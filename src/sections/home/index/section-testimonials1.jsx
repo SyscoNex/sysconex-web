@@ -1,58 +1,102 @@
+"use client";
+
+import { useEffect } from "react";
+import testimonials from "@/data/testimonials";
+
 function SectionTestimonials1() {
+    useEffect(() => {
+        function initCarousel() {
+            const $ = window.jQuery || window.$;
+            if (!$ || !$.fn.owlCarousel) return false;
+
+            const $carousel = $(".sx-testimonial-carousel");
+
+            // Destroy any previous instance cleanly
+            try {
+                $carousel.trigger("destroy.owl.carousel");
+                $carousel.removeClass("owl-loaded owl-hidden");
+                $carousel.find(".owl-stage-outer").children().unwrap();
+                $carousel.find(".owl-stage-outer, .owl-stage, .owl-item").remove();
+            } catch (e) {}
+
+            // Init fresh
+            try {
+                $carousel.owlCarousel({
+                    loop: true,
+                    margin: 30,
+                    dots: true,
+                    nav: false,
+                    autoplay: true,
+                    autoplayTimeout: 4000,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: { items: 1 },
+                        768: { items: 2 },
+                        1200: { items: 3 }
+                    }
+                });
+            } catch (e) {}
+            return true;
+        }
+
+        // Try immediately, then retry after short delay if Owl not yet loaded
+        if (!initCarousel()) {
+            const t = setTimeout(initCarousel, 500);
+            return () => clearTimeout(t);
+        }
+
+        return () => {
+            try {
+                const $ = window.jQuery || window.$;
+                if (!$) return;
+                const $carousel = $(".sx-testimonial-carousel");
+                $carousel.trigger("destroy.owl.carousel");
+                $carousel.removeClass("owl-loaded owl-hidden");
+                $carousel.find(".owl-stage-outer").children().unwrap();
+                $carousel.find(".owl-stage-outer, .owl-stage, .owl-item").remove();
+            } catch (e) {}
+        };
+    }, []);
+
+
     return (
         <>
-            <div className="sx-testimonial-bx-1">
-                <div className="owl-carousel testimonial-2-wrap owl-btn-vertical-center">
-                    {/*One block*/}
-                    <div className="item">
-                        <div className="testimonial-2  hover-animation-11">
-                            <div className="testimonial-text">
-                                <span className="testimonial-quote sx-text-primary"><i className="flaticon-quote" /></span>
-                                <p>At our core, we believe that technology should empower businesses, not complicate them. With a passion for crafting tailor-made software solutions, we bridge the gap between complex problems and seamless digital experiences. Our journey is fueled by innovation, precision, and an unwavering commitment to delivering solutions that truly make a difference.</p>
-                            </div>
-                            <div className="testimonial-detail">
-                                <div className="testimonial-user-info">
-                                    <h4 className="testimonial-name">Sachintha Niyangoda</h4>
-                                    <span className="testimonial-position">Founder & Visionary Leader</span>
+            <div className="sx-testimonial-bx-1 p-t50">
+                {/* Section Header */}
+                <div className="section-head center m-b30">
+                    <div className="sx-head-s-title">Client Reviews</div>
+                    <div className="sx-head-l-title">
+                        <h2 className="sx-title">What Our Clients Say</h2>
+                    </div>
+                </div>
+                <div className="owl-carousel sx-testimonial-carousel">
+                    {testimonials.map((t, idx) => (
+                        <div className="item" key={idx}>
+                            <div
+                                className="testimonial-2 hover-animation-11"
+                                style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", minHeight: "220px" }}
+                            >
+                                <div className="testimonial-text">
+                                    <span className="testimonial-quote sx-text-primary">
+                                        <i className="flaticon-quote" />
+                                    </span>
+                                    <p style={{ fontSize: "16px", lineHeight: "1.65" }}>
+                                        &ldquo;{t.quote}&rdquo;
+                                    </p>
+                                </div>
+                                <div className="testimonial-detail" style={{ marginTop: "16px" }}>
+                                    <div className="testimonial-user-info">
+                                        <h4 className="testimonial-name">{t.name}</h4>
+                                        <span className="testimonial-position">{t.position}</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    {/*One two*/}
-                    <div className="item">
-                        <div className="testimonial-2  hover-animation-11">
-                            <div className="testimonial-text">
-                                <span className="testimonial-quote sx-text-primary"><i className="flaticon-quote" /></span>
-                                <p>Artificial Intelligence is transforming the way businesses operate, and we're here to ensure that our clients stay ahead of the curve. From automation to predictive analytics, we integrate AI into software solutions that are not only intelligent but also efficient and scalable. Every project we take on is an opportunity to push boundaries and redefine what's possible with AI.</p>
-                            </div>
-                            <div className="testimonial-detail">
-                                <div className="testimonial-user-info">
-                                    <h4 className="testimonial-name">Akash Induruwa</h4>
-                                    <span className="testimonial-position">AI Specialist</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/*One three*/}
-                    <div className="item">
-                        <div className="testimonial-2  hover-animation-11">
-                            <div className="testimonial-text">
-                                <span className="testimonial-quote sx-text-primary"><i className="flaticon-quote" /></span>
-                                <p>Building robust, scalable, and high-performing software is more than just writing code—it's about understanding the unique needs of each business and crafting solutions that align with their goals. Whether it's web applications, mobile apps, or enterprise-grade software, we engineer solutions that drive growth and efficiency for our clients.</p>
-                            </div>
-                            <div className="testimonial-detail">
-                                <div className="testimonial-user-info">
-                                    <h4 className="testimonial-name">Sahan Thilakaratne</h4>
-                                    <span className="testimonial-position">Software Development Expert</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+                    ))}
                 </div>
             </div>
         </>
-    )
+    );
 }
 
 export default SectionTestimonials1;

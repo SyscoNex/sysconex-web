@@ -19,10 +19,10 @@ export function SectionWhyChooseUs2Inner() {
 
         <div className="col-lg-6 col-md-12">
           <div className="sx-about-bx4-content">
-            <h2 className="sx-title">Why choose Sysconex?</h2>
+            <h2 className="sx-title">Why choose SyscoNex?</h2>
 
             <p>
-              Sysconex builds reliable, modern software that turns ideas into
+              SyscoNex builds reliable, modern software that turns ideas into
               production systems. We blend clean UX with scalable back-ends and
               obsess over performance, security, and maintainability—so you can
               launch faster and grow with confidence.
@@ -38,7 +38,7 @@ export function SectionWhyChooseUs2Inner() {
 
             <NavLink to="/why-choose-us" className="site-button sx-btn-primary icon sx-btn-lg">
               <i className="fa fa-long-arrow-right" />
-              Learn more about Sysconex
+              Learn more about SyscoNex
             </NavLink>
           </div>
         </div>
@@ -56,9 +56,6 @@ function SectionWhyChooseUs2() {
             <div className="sx-about-bx4-content-wrap p-b70">
               <SectionWhyChooseUs2Inner />
             </div>
-
-            {/* testimonial section */}
-            <SectionTestimonials2 />
           </div>
         </div>
       </div>

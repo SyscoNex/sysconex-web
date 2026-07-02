@@ -16,7 +16,7 @@ function SectionTeam2() {
                                 <div className="section-head left">
                                     <div className="sx-head-s-title">Team Member</div>
                                     <div className="sx-head-l-title">
-                                        <h2 className="sx-title">Our Itodo IT Solution Special Team Members</h2>
+                                        <h2 className="sx-title">Our SyscoNex IT Solution Special Team Members</h2>
                                     </div>
                                 </div>
                                 {/* TITLE END */}

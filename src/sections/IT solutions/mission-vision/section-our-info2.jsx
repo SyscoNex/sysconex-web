@@ -26,7 +26,7 @@ function SectionOurInfo2() {
                                         <li>
                                             <div className="sx-our-info-content-list left">
                                                 <span className="sx-sub-title">Service Focus</span>
-                                                <h3 className="sx-bx-title">AI, AR/VR, Web & Mobile Solutions</h3>
+                                                <h3 className="sx-bx-title">AI & ML, Web & Mobile, Security & Marketing</h3>
                                             </div>
                                         </li>
                                         <li>
@@ -43,7 +43,7 @@ function SectionOurInfo2() {
                             <div className="col-lg-4 col-md-4">
                                 <div className="sx-our-info-media-wrap">
                                     <div className="sx-our-info-media">
-                                        <ItodoImage src="images/t1.png" alt="Sysconex Info" />
+                                        <ItodoImage src="images/t1.png" alt="SyscoNex Info" />
                                     </div>
                                 </div>
                             </div>

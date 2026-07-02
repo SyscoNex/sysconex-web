@@ -37,7 +37,7 @@ function SectionSlider2() {
                         <div className="container">
                             <div className="sx-bnr-2-content">
                                 <span className="sx-bnr-2-small-title">we are The best</span>
-                                <h2 className="sx-bnr-2-large-title">Best IT Services provider Our Itodo Companey In Our Country.</h2>
+                                <h2 className="sx-bnr-2-large-title">Best IT Services provider SyscoNex Solutions In Our Country.</h2>
                                 <div className="sx-bnr-2-info">Fusce lacinia elit odio, id pulvinar erat placerat vitae. Sed quis aliquet neque. Aenean placerat condimentum lorem non suscipit. Cras tellus tellus, fringilla eu sapien.</div>
                                 <div className="sx-bnr-readmore">
                                     <NavLink to="/mission" className="site-button sx-btn-primary icon">

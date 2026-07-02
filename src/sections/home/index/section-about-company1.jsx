@@ -32,7 +32,7 @@ function SectionAboutCompany1() {
                                     <div className="sx-about-bx1-content">
                                         <h2 className="sx-title">That's why we're list of favorites.</h2>
                                         <span className="sx-title-2">Trusted for innovation, chosen for excellence</span>
-                                        <p>At Sysconex Solutions, we are trusted for innovation and chosen for excellence. Our commitment to cutting-edge technology and smart solutions makes us a favorite in the industry. With a passion for transforming ideas into reality, we craft powerful, efficient, and future-ready applications that drive success. That’s why businesses rely on us—we don’t just meet expectations, we exceed them.</p>
+                                         <p>At SyscoNex Solutions, we are a Sri Lanka-based technology consultancy delivering innovative, scalable, and secure IT solutions to businesses across international markets, including Australia, the US, and the UK. Operating out of Negombo, the company positions itself as a full-stack technology partner — combining software engineering, infrastructure expertise, and creative services under one roof, so clients don't need to juggle multiple vendors for development, security, and branding.</p>
                                         <div className="progress">
                                             <div className="progress-bar sx-bg-primary" role="progressbar" style={{ width: '90%' }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100}><span>95.00% Work Success</span></div>
                                         </div>
