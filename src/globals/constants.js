@@ -1,4 +1,5 @@
-const baseUrl = process.env.PUBLIC_URL
+const rawBaseUrl = process.env.NEXT_PUBLIC_PUBLIC_URL || process.env.PUBLIC_URL || "";
+const baseUrl = rawBaseUrl.endsWith('/') ? rawBaseUrl.slice(0, -1) : rawBaseUrl;
 
 export function publicUrlFor(path) {
     return baseUrl + "/assets/" + path;

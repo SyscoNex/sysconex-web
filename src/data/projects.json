@@ -11,7 +11,7 @@
     "image": "images/portfolio/lixr-po.png",
     "heroImage": "images/portfolio/lixr-po.png",
     "portfolioLink": "/portfolio/lixr-innovation",
-    "siteLink": "https://lixrinnovation.com/",
+    "siteLink": "https://www.lixrinnovation.com/",
     "summary": "Precision metal works and custom engineering solutions: design, simulation, rendering, laser cutting, and welding.",
     "content": {
       "intro": [
@@ -37,7 +37,47 @@
         }
       ]
     },
-    "relatedSlugs": ["lms", "car-renting"]
+    "relatedSlugs": ["lms", "accessara"]
+  },
+  {
+    "id": 2,
+    "slug": "oceantech",
+    "title": "OceanTech.lk",
+    "category": "Technology / E-commerce",
+    "categoryLabel": "Tech Retail Platform",
+    "date": "2025-10-01",
+    "author": "Sysconex Team",
+    "class": "E-commerce",
+    "image": "images/portfolio/logo/sysconex-lg.png",
+    "heroImage": "images/portfolio/logo/sysconex-lg.png",
+    "portfolioLink": "/portfolio/oceantech",
+    "siteLink": "https://oceantech.lk/",
+    "summary": "OceanTech.lk is a Sri Lanka-based technology retail platform offering a wide range of electronics, components, and tech solutions for businesses and individuals.",
+    "content": {
+      "intro": [
+        "OceanTech.lk provides a comprehensive online platform for technology products, components, and solutions tailored for the Sri Lankan market.",
+        "From consumer electronics to industrial components, OceanTech bridges the gap between technology suppliers and buyers."
+      ],
+      "sections": [
+        {
+          "heading": "Wide Product Range & Easy Discovery",
+          "paragraphs": [
+            "OceanTech lists thousands of tech products with detailed specs, images, and competitive pricing to help customers make informed buying decisions.",
+            "Advanced filtering and categorization ensures customers find exactly what they need quickly and efficiently."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Reliable Local Delivery & Support",
+          "paragraphs": [
+            "With a focus on the Sri Lankan market, OceanTech provides fast local delivery, reliable customer support, and after-sales service.",
+            "Their platform integrates secure local payment gateways and delivery tracking for a seamless shopping experience."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["accessara", "crownstar"]
   },
   {
     "id": 3,
@@ -70,7 +110,7 @@
         {
           "heading": "Responsive Design & Mobile Experience",
           "paragraphs": [
-            "Accessara’s site is optimized for mobile and desktop — fast loading, clean UI, and intuitive UX across devices.",
+            "Accessara's site is optimized for mobile and desktop — fast loading, clean UI, and intuitive UX across devices.",
             "Mobile-friendly menus and product views ensure that customers on phones have full functionality without compromise."
           ],
           "image": "images/portfolio/logo/sysconex-lg.png"
@@ -81,6 +121,86 @@
   },
   {
     "id": 4,
+    "slug": "crownstar",
+    "title": "CrownStar",
+    "category": "Retail / Australia",
+    "categoryLabel": "Australian E-commerce",
+    "date": "2025-09-15",
+    "author": "Sysconex Team",
+    "class": "E-commerce",
+    "image": "images/portfolio/logo/crown.png",
+    "heroImage": "images/portfolio/logo/crown.png",
+    "portfolioLink": "/portfolio/crownstar",
+    "siteLink": "https://crownstar.com.au/",
+    "summary": "CrownStar is an Australian online retail platform delivering premium products with a focus on quality, reliability, and customer satisfaction.",
+    "content": {
+      "intro": [
+        "CrownStar serves the Australian market with a premium online retail experience, providing customers with top-quality products across multiple categories.",
+        "Built with scalability and performance in mind, the platform delivers a smooth and enjoyable shopping journey from discovery to checkout."
+      ],
+      "sections": [
+        {
+          "heading": "Premium Australian Retail Experience",
+          "paragraphs": [
+            "CrownStar curates high-quality product selections tailored for Australian consumers, with competitive pricing and fast local shipping.",
+            "Secure payment options, easy returns, and responsive customer support ensure customer satisfaction at every touchpoint."
+          ],
+          "image": "images/portfolio/logo/crown.png"
+        },
+        {
+          "heading": "Scalable Platform & Robust Architecture",
+          "paragraphs": [
+            "The platform is built to handle high traffic with a reliable, scalable architecture that supports growth and seasonal demand spikes.",
+            "Integration with local Australian logistics partners enables real-time tracking and reliable delivery."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["accessara", "oceantech"]
+  },
+  {
+    "id": 5,
+    "slug": "zenna-global-trade",
+    "title": "Zenna Global Trade",
+    "category": "Global Trade / B2B",
+    "categoryLabel": "International Trade Platform",
+    "date": "2025-11-01",
+    "author": "Sysconex Team",
+    "class": "B2B Commerce",
+    "image": "images/portfolio/logo/sysconex-lg.png",
+    "heroImage": "images/portfolio/logo/sysconex-lg.png",
+    "portfolioLink": "/portfolio/zenna-global-trade",
+    "siteLink": "https://www.zennaglobaltrade.com/",
+    "summary": "Zenna Global Trade is an international B2B trade platform connecting businesses across borders with reliable import/export solutions and global logistics support.",
+    "content": {
+      "intro": [
+        "Zenna Global Trade facilitates seamless international commerce by connecting buyers and sellers across global markets through a reliable, feature-rich platform.",
+        "From trade inquiries to logistics coordination, Zenna Global Trade simplifies the complex world of international business transactions."
+      ],
+      "sections": [
+        {
+          "heading": "Global Trade Connections",
+          "paragraphs": [
+            "The platform connects businesses worldwide, enabling efficient communication, product sourcing, and deal-making across borders.",
+            "Multi-currency support, international shipping integrations, and compliance tools make global trade straightforward."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Logistics & Compliance Support",
+          "paragraphs": [
+            "Zenna Global Trade provides documentation support, customs compliance guidance, and logistics coordination to reduce friction in import/export operations.",
+            "Real-time shipment tracking and partner network integrations ensure end-to-end visibility."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["lixr-innovation", "smt-holiday-planners"]
+  },
+  {
+    "id": 6,
     "slug": "smt-holiday-planners",
     "title": "SMT Holiday Planners",
     "category": "Travel & Tourism",
@@ -119,9 +239,408 @@
     },
     "relatedSlugs": ["lms", "accessara"]
   },
-  
   {
-    "id": 5,
+    "id": 7,
+    "slug": "mudukatuwa-mills",
+    "title": "Mudukatuwa Mills",
+    "category": "Manufacturing / Industry",
+    "categoryLabel": "Industrial Web Platform",
+    "date": "2025-12-01",
+    "author": "Sysconex Team",
+    "class": "Industrial",
+    "image": "images/portfolio/logo/sysconex-lg.png",
+    "heroImage": "images/portfolio/logo/sysconex-lg.png",
+    "portfolioLink": "/portfolio/mudukatuwa-mills",
+    "siteLink": "https://www.mudukatuwamills.com/",
+    "summary": "Mudukatuwa Mills is a Sri Lanka-based manufacturing company with a modern web presence showcasing their industrial capabilities, product range, and sustainable operations.",
+    "content": {
+      "intro": [
+        "Mudukatuwa Mills is a well-established manufacturing entity in Sri Lanka, delivering quality industrial products and services to local and international markets.",
+        "Their digital presence was crafted to reflect their heritage, showcase their product capabilities, and connect with global buyers."
+      ],
+      "sections": [
+        {
+          "heading": "Industrial Capabilities & Product Showcase",
+          "paragraphs": [
+            "The website highlights Mudukatuwa Mills' manufacturing processes, quality certifications, and product range in a professional and accessible format.",
+            "Detailed product pages with specifications help procurement teams quickly evaluate and source products."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Connecting with Global Markets",
+          "paragraphs": [
+            "With international SEO optimization and multilingual support, the platform extends Mudukatuwa Mills' reach to export markets.",
+            "Inquiry forms, product downloads, and contact integrations facilitate easy business communication."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["lixr-innovation", "zenna-global-trade"]
+  },
+  {
+    "id": 8,
+    "slug": "ai-integrated-lms",
+    "title": "AI-Integrated LMS Platform",
+    "category": "AI / Education",
+    "categoryLabel": "AI Learning Management",
+    "date": "2025-06-01",
+    "author": "Sysconex Team",
+    "class": "AI Platform",
+    "image": "images/projects/Logo1.png",
+    "heroImage": "images/projects/Logo1.png",
+    "portfolioLink": "/portfolio/ai-integrated-lms",
+    "siteLink": "",
+    "summary": "An AI-powered Learning Management System with intelligent course recommendations, adaptive assessments, automated grading, and real-time learning analytics for educational institutions.",
+    "content": {
+      "intro": [
+        "This AI-Integrated LMS Platform revolutionizes the learning experience by combining traditional course management with intelligent AI capabilities.",
+        "Built for educational institutions and corporate training programs, it adapts content delivery based on individual learner performance and behavior patterns."
+      ],
+      "sections": [
+        {
+          "heading": "Adaptive Learning & AI Recommendations",
+          "paragraphs": [
+            "The platform uses machine learning models to analyze learner progress and automatically recommend the most relevant content, exercises, and assessments.",
+            "Personalized learning paths are generated in real time, ensuring every student gets a tailored educational journey."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Automated Grading & Analytics Dashboard",
+          "paragraphs": [
+            "AI-powered grading handles essays, coding assignments, and quizzes with high accuracy, reducing instructor workload significantly.",
+            "A comprehensive analytics dashboard gives educators real-time visibility into learner engagement, completion rates, and knowledge gaps."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["ai-gem-classify", "ai-warehouse"]
+  },
+  {
+    "id": 9,
+    "slug": "ai-tea-classify",
+    "title": "AI Tea Classification System",
+    "category": "AI / AgriTech",
+    "categoryLabel": "AI Classification",
+    "date": "2025-07-01",
+    "author": "Sysconex Team",
+    "class": "Computer Vision",
+    "image": "images/portfolio/logo/sysconex-lg.png",
+    "heroImage": "images/portfolio/logo/sysconex-lg.png",
+    "portfolioLink": "/portfolio/ai-tea-classify",
+    "siteLink": "",
+    "summary": "An AI-powered system that uses computer vision and deep learning to classify tea leaves by grade, quality, and type — automating quality control in tea processing facilities.",
+    "content": {
+      "intro": [
+        "This AI-Integrated Tea Classification System brings cutting-edge computer vision to the tea industry, enabling automated and accurate grading of tea leaves at scale.",
+        "Traditional manual tea grading is time-consuming and inconsistent. This system replaces human guesswork with precise, real-time AI analysis."
+      ],
+      "sections": [
+        {
+          "heading": "Computer Vision-Based Leaf Grading",
+          "paragraphs": [
+            "Using convolutional neural networks (CNNs) trained on thousands of tea leaf images, the system classifies leaves by grade, color, moisture content, and quality tier.",
+            "Real-time camera integration at production lines enables instant classification without halting the processing flow."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Quality Control & Reporting",
+          "paragraphs": [
+            "Automated reports are generated per batch, giving tea estate managers full visibility into quality distribution and production consistency.",
+            "Integration with existing ERP systems enables seamless data flow from classification results to inventory and pricing modules."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["ai-gem-classify", "ai-cardamom-classify"]
+  },
+  {
+    "id": 10,
+    "slug": "ai-gem-classify",
+    "title": "AI Gem Classification System",
+    "category": "AI / Gemology",
+    "categoryLabel": "AI Classification",
+    "date": "2025-07-15",
+    "author": "Sysconex Team",
+    "class": "Computer Vision",
+    "image": "images/portfolio/logo/sysconex-lg.png",
+    "heroImage": "images/portfolio/logo/sysconex-lg.png",
+    "portfolioLink": "/portfolio/ai-gem-classify",
+    "siteLink": "",
+    "summary": "An AI-powered gem classification system using deep learning and spectrometry data to identify, grade, and certify gemstones with high accuracy and speed.",
+    "content": {
+      "intro": [
+        "This AI-Integrated Gem Classification System transforms gemstone grading by leveraging deep learning models trained on high-resolution gem imagery and spectrometric data.",
+        "Sri Lanka, known as the 'Island of Gems', benefits greatly from automated classification that ensures consistency and reduces dependency on scarce expert gemologists."
+      ],
+      "sections": [
+        {
+          "heading": "Automated Gem Identification & Grading",
+          "paragraphs": [
+            "The system identifies gem type, cut quality, clarity, color saturation, and carat estimation from multi-angle imaging with expert-level accuracy.",
+            "Classification results are generated in seconds, enabling gem traders and exporters to grade hundreds of stones per hour."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Digital Certification & Traceability",
+          "paragraphs": [
+            "Every classified gemstone is assigned a digital certificate with classification metadata, enabling transparent provenance tracking.",
+            "Integration with blockchain ledgers ensures tamper-proof records for high-value gem exports and auctions."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["ai-tea-classify", "ai-cardamom-classify"]
+  },
+  {
+    "id": 11,
+    "slug": "ai-warehouse",
+    "title": "AI-Integrated Warehouse System",
+    "category": "AI / Logistics",
+    "categoryLabel": "Smart Warehouse",
+    "date": "2025-08-01",
+    "author": "Sysconex Team",
+    "class": "AI Operations",
+    "image": "images/portfolio/logo/sysconex-lg.png",
+    "heroImage": "images/portfolio/logo/sysconex-lg.png",
+    "portfolioLink": "/portfolio/ai-warehouse",
+    "siteLink": "",
+    "summary": "An intelligent warehouse management system powered by AI for automated inventory tracking, demand forecasting, picking optimization, and real-time operational analytics.",
+    "content": {
+      "intro": [
+        "This AI-Integrated Warehouse System transforms traditional warehousing operations into a smart, data-driven ecosystem that reduces costs and improves throughput.",
+        "By combining IoT sensors, computer vision, and machine learning, the system provides unprecedented visibility and automation across warehouse workflows."
+      ],
+      "sections": [
+        {
+          "heading": "Intelligent Inventory & Demand Forecasting",
+          "paragraphs": [
+            "AI models analyze historical sales, seasonal trends, and supplier lead times to predict inventory needs and automate restocking alerts.",
+            "Real-time inventory tracking using RFID, barcodes, and computer vision eliminates stockouts and overstock situations."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Picking Optimization & Operational Analytics",
+          "paragraphs": [
+            "The system generates optimal pick routes for warehouse staff, reducing travel time and increasing order fulfillment speed.",
+            "A live analytics dashboard provides managers with KPIs, bottleneck detection, and productivity metrics in real time."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["ai-integrated-lms", "ai-bus-system"]
+  },
+  {
+    "id": 12,
+    "slug": "ai-cardamom-classify",
+    "title": "AI Cardamom Plant Classification System",
+    "category": "AI / AgriTech",
+    "categoryLabel": "Crop Classification",
+    "date": "2025-09-01",
+    "author": "Sysconex Team",
+    "class": "Computer Vision",
+    "image": "images/portfolio/logo/sysconex-lg.png",
+    "heroImage": "images/portfolio/logo/sysconex-lg.png",
+    "portfolioLink": "/portfolio/ai-cardamom-classify",
+    "siteLink": "",
+    "summary": "An AI-powered plant health and maturity classification system for cardamom farms — detecting disease, growth stage, and harvest readiness using drone imagery and computer vision.",
+    "content": {
+      "intro": [
+        "This AI-Integrated Cardamom Plant Classification System helps farmers and plantation managers make data-driven decisions about crop health, disease management, and harvest timing.",
+        "Cardamom cultivation is labor-intensive and requires expert knowledge to identify plant health issues early. This system automates monitoring at scale."
+      ],
+      "sections": [
+        {
+          "heading": "Disease Detection & Growth Stage Analysis",
+          "paragraphs": [
+            "Computer vision models analyze drone-captured imagery to detect fungal infections, pest damage, and nutrient deficiencies at the individual plant level.",
+            "Growth stage classification helps farmers plan fertilization, irrigation, and harvesting activities with precision."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Harvest Readiness & Yield Prediction",
+          "paragraphs": [
+            "The system predicts harvest readiness dates and estimated yield per plot, enabling better resource planning and market timing.",
+            "Field maps with plant-level health overlays give agronomists actionable insights for targeted interventions."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["ai-tea-classify", "ai-gem-classify"]
+  },
+  {
+    "id": 13,
+    "slug": "ai-bus-system",
+    "title": "AI-Integrated Bus Management System",
+    "category": "AI / Transportation",
+    "categoryLabel": "Smart Transit",
+    "date": "2025-10-01",
+    "author": "Sysconex Team",
+    "class": "AI Transport",
+    "image": "images/portfolio/logo/sysconex-lg.png",
+    "heroImage": "images/portfolio/logo/sysconex-lg.png",
+    "portfolioLink": "/portfolio/ai-bus-system",
+    "siteLink": "",
+    "summary": "An AI-powered bus fleet management and passenger tracking system with real-time route optimization, predictive maintenance, and smart scheduling for public and private transport operators.",
+    "content": {
+      "intro": [
+        "This AI-Integrated Bus System modernizes public and private transport operations through intelligent automation, real-time tracking, and data-driven scheduling.",
+        "Fleet operators gain full visibility over their vehicles, drivers, and routes while passengers enjoy accurate arrival predictions and better service reliability."
+      ],
+      "sections": [
+        {
+          "heading": "Real-Time Fleet Tracking & Route Optimization",
+          "paragraphs": [
+            "GPS-enabled fleet tracking combined with AI route optimization reduces journey times, fuel consumption, and idle time across the network.",
+            "Dynamic route adjustments in response to traffic conditions and passenger demand are handled automatically."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Predictive Maintenance & Smart Scheduling",
+          "paragraphs": [
+            "AI models monitor vehicle health data and predict maintenance needs before breakdowns occur, reducing downtime and repair costs.",
+            "Smart scheduling algorithms balance driver hours, vehicle availability, and passenger demand to ensure optimal service coverage."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["ai-warehouse", "ai-garment-system"]
+  },
+  {
+    "id": 14,
+    "slug": "ai-interview-platform",
+    "title": "AI-Integrated Interview Platform",
+    "category": "AI / HR Tech",
+    "categoryLabel": "Smart Recruitment",
+    "date": "2025-11-01",
+    "author": "Sysconex Team",
+    "class": "AI HR Platform",
+    "image": "images/portfolio/logo/sysconex-lg.png",
+    "heroImage": "images/portfolio/logo/sysconex-lg.png",
+    "portfolioLink": "/portfolio/ai-interview-platform",
+    "siteLink": "",
+    "summary": "An AI-powered interview and recruitment platform that automates candidate screening, conducts AI-driven video interviews, and provides objective scoring and behavioral analysis.",
+    "content": {
+      "intro": [
+        "This AI-Integrated Interview Platform transforms the recruitment process by automating candidate screening, video interviews, and scoring — enabling faster, fairer, and more consistent hiring decisions.",
+        "Recruiters save hours per candidate while gaining deeper, data-backed insights into communication skills, technical competency, and cultural fit."
+      ],
+      "sections": [
+        {
+          "heading": "AI-Driven Video Interviews & Screening",
+          "paragraphs": [
+            "Candidates complete asynchronous AI-conducted video interviews at their convenience, with NLP models analyzing responses for relevance, clarity, and keyword alignment.",
+            "Automated pre-screening filters out unqualified candidates before human review, reducing time-to-hire significantly."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Behavioral Analysis & Objective Scoring",
+          "paragraphs": [
+            "Facial expression analysis, speech pattern recognition, and sentiment analysis provide a holistic behavioral profile for each candidate.",
+            "Standardized scoring rubrics ensure fairness and reduce unconscious bias in the recruitment process."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["ai-integrated-lms", "ai-garment-system"]
+  },
+  {
+    "id": 15,
+    "slug": "ai-garment-system",
+    "title": "AI-Integrated Garment Automation System",
+    "category": "AI / Manufacturing",
+    "categoryLabel": "Smart Garment Factory",
+    "date": "2025-12-01",
+    "author": "Sysconex Team",
+    "class": "AI Automation",
+    "image": "images/portfolio/logo/sysconex-lg.png",
+    "heroImage": "images/portfolio/logo/sysconex-lg.png",
+    "portfolioLink": "/portfolio/ai-garment-system",
+    "siteLink": "",
+    "summary": "An AI-powered garment manufacturing automation system with computer vision-based quality control, production line monitoring, defect detection, and real-time output analytics.",
+    "content": {
+      "intro": [
+        "This AI-Integrated Garment Automation System revolutionizes garment factory operations by automating quality control, defect detection, and production monitoring using AI and computer vision.",
+        "Sri Lanka's garment industry is one of the country's largest exports — this system helps manufacturers meet international quality standards at speed and scale."
+      ],
+      "sections": [
+        {
+          "heading": "Computer Vision Quality Control",
+          "paragraphs": [
+            "High-speed cameras combined with CNN-based models inspect every garment for stitching defects, fabric flaws, sizing inconsistencies, and color deviations in real time.",
+            "Defective items are automatically flagged and routed to rework stations, preventing faulty goods from reaching packaging."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Production Line Monitoring & Analytics",
+          "paragraphs": [
+            "IoT sensors and AI analytics monitor machine performance, operator productivity, and throughput across every station on the production line.",
+            "Real-time dashboards and alerts enable supervisors to prevent bottlenecks, reduce waste, and optimize shift planning."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["ai-bus-system", "ai-interview-platform"]
+  },
+  {
+    "id": 16,
+    "slug": "mrnlife",
+    "title": "MRNLife",
+    "category": "Health & Wellness",
+    "categoryLabel": "Health Platform",
+    "date": "2025-11-15",
+    "author": "Sysconex Team",
+    "class": "Healthcare Web",
+    "image": "images/portfolio/logo/sysconex-lg.png",
+    "heroImage": "images/portfolio/logo/sysconex-lg.png",
+    "portfolioLink": "/portfolio/mrnlife",
+    "siteLink": "https://mrnlife.com/",
+    "summary": "MRNLife is a health and wellness platform connecting individuals with medical professionals, wellness resources, and personalized health guidance for a better quality of life.",
+    "content": {
+      "intro": [
+        "MRNLife is a comprehensive digital health platform that bridges the gap between patients and medical professionals, offering online consultations, wellness tracking, and health education.",
+        "Designed with accessibility and user trust at its core, the platform empowers individuals to take control of their health journey from anywhere."
+      ],
+      "sections": [
+        {
+          "heading": "Online Consultations & Health Services",
+          "paragraphs": [
+            "MRNLife connects users with licensed medical professionals for virtual consultations, second opinions, and specialist referrals.",
+            "The platform supports appointment scheduling, video calls, prescription management, and medical record storage in one unified experience."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        },
+        {
+          "heading": "Wellness Tracking & Health Education",
+          "paragraphs": [
+            "Users can track health metrics, set wellness goals, and access curated health content from verified medical experts.",
+            "Personalized health recommendations and reminders help users maintain healthy habits and manage chronic conditions."
+          ],
+          "image": "images/portfolio/logo/sysconex-lg.png"
+        }
+      ]
+    },
+    "relatedSlugs": ["ai-integrated-lms", "smt-holiday-planners"]
+  },
+  {
+    "id": 17,
     "slug": "pristine-codes",
     "title": "PristineCodes",
     "category": "Software Development",
@@ -161,9 +680,9 @@
     "relatedSlugs": ["accessara", "lixr-innovation"]
   },
   {
-    "id": 6,
+    "id": 18,
     "slug": "lms",
-    "title": "LMS Project for IJLS",
+    "title": "AI-Integrated LMS for IJLS",
     "category": "Education",
     "categoryLabel": "Student Management",
     "date": "2024-03-12",
@@ -173,11 +692,11 @@
     "heroImage": "images/projects/Logo1.png",
     "portfolioLink": "/portfolio/lms",
     "siteLink": "https://student-management-system-frontend-lime.vercel.app/",
-    "summary": "Learning Management System with course authoring, assessments, and analytics.",
+    "summary": "Learning Management System with course authoring, assessments, and analytics — built for IJLS with AI-powered adaptive learning and student progress tracking.",
     "content": {
       "intro": [
-        "Cras suscipit odio ut neque interdum, sed faucibus lorem feugiat.",
-        "Donec a lobortis arcu. Fusce viverra a dolor quis tincidunt."
+        "This LMS platform built for IJLS provides a comprehensive digital learning environment with course authoring tools, assessment engines, and detailed analytics.",
+        "AI integration powers adaptive learning paths and automated assessments, creating a personalized experience for every student."
       ],
       "sections": [
         {
@@ -198,6 +717,6 @@
         }
       ]
     },
-    "relatedSlugs": ["blood-donation", "car-renting"]
+    "relatedSlugs": ["ai-integrated-lms", "accessara"]
   }
 ]

@@ -297,6 +297,7 @@ All JavaScript fuctions Start
 			autoplayTimeout:5000,
 			nav:false,
 			dots: true,
+			autoHeight: true,
 			navText: ['<i class="flaticon-left-chevron"></i>', '<i class="flaticon-chevron"></i>'],
 			responsive:{
 				0:{

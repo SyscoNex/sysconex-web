@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+/* Global Container Width Overrides */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1360px !important;
+  }
+}
+
+/* Reduce general section padding for a tighter layout across the project */
+.p-t110 {
+  padding-top: 60px !important;
+}
+.p-b80 {
+  padding-bottom: 40px !important;
+}
+.p-t80 {
+  padding-top: 40px !important;
+}
+.p-b50 {
+  padding-bottom: 25px !important;
+}
+.p-t50 {
+  padding-top: 25px !important;
+}
+.p-b30 {
+  padding-bottom: 15px !important;
+}
+
+/* Fix any gaps in main slider containers and header transitions */
+.home-1-slider, .home-2-slider, .home-3-slider {
+  margin-bottom: 0px !important;
+  margin-top: 5px !important;
+  padding-top: 5px !important;
+}
+.page-content {
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+.site-header {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+.sticky-wrapper {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  height: auto !important;
+}
+
+/* Home Page Hero Section / Slider Spacing Reductions */
+.home-1-slider swiper-container,
+.home-1-slider .swiper-slide,
+.sx-bnr-1-wrap-outer .swiper-slide,
+.sx-bnr-2-wrap-outer .swiper-slide,
+.sx-bnr-3-wrap-outer .swiper-slide {
+  height: 450px !important;
+  min-height: 550px !important;
+}
+
+.sx-bnr-1-info, .sx-bnr-2-info, .sx-bnr-3-info {
+  margin-bottom: 20px !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.sx-bnr-1-large-title, .sx-bnr-2-large-title, .sx-bnr-3-large-title {
+  margin-bottom: 15px !important;
+  font-size: 48px !important;
+  line-height: 1.1 !important;
+}
+
+.sx-bnr-1-wrap .site-button, .sx-bnr-2-wrap .site-button, .sx-bnr-3-wrap .site-button {
+  padding: 12px 30px !important;
+  margin-right: 20px !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .home-1-slider swiper-container,
+  .home-1-slider .swiper-slide,
+  .sx-bnr-1-wrap-outer .swiper-slide,
+  .sx-bnr-2-wrap-outer .swiper-slide,
+  .sx-bnr-3-wrap-outer .swiper-slide {
+    height: 480px !important;
+    min-height: 480px !important;
+  }
+  .sx-bnr-1-large-title, .sx-bnr-2-large-title, .sx-bnr-3-large-title {
+    font-size: 32px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .home-1-slider swiper-container,
+  .home-1-slider .swiper-slide,
+  .sx-bnr-1-wrap-outer .swiper-slide,
+  .sx-bnr-2-wrap-outer .swiper-slide,
+  .sx-bnr-3-wrap-outer .swiper-slide {
+    height: 400px !important;
+    min-height: 400px !important;
+  }
+  .sx-bnr-1-large-title, .sx-bnr-2-large-title, .sx-bnr-3-large-title {
+    font-size: 24px !important;
+  }
+}
+
+/* Reduce size of main slider navigation arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 50px !important;
+  height: 50px !important;
+  margin-top: -25px !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 16px !important;
+}
+
+/* Force correct font sizes on hero headings to bypass legacy CSS loading order */
+.home-1-slider h1 {
+  font-size: 64px !important;
+  line-height: 1.15 !important;
+  font-weight: 800 !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .home-1-slider h1 {
+    font-size: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .home-1-slider h1 {
+    font-size: 28px !important;
+  }
+}
+
+/* Force minimum font-size of 16px globally for body elements, paragraphs, lists, forms and anchor links */
+body, p, a, li, input, textarea, select {
+  font-size: 18px;
+}
+
+/* Ensure no custom layout classes use smaller font sizes than 16px */
+.widget_about p, 
+.widget_services ul li a, 
+.widget_info ul li p, 
+.widget-info-detail a, 
+.widget-info-detail p,
+.sx-f-copy,
+.sx-f-social ul li a,
+.sx-vodeo-section p,
+.sx-vodeo-section span,
+.large-title-info p,
+.sx-bnr-1-info, 
+.sx-bnr-2-info, 
+.sx-bnr-3-info {
+  font-size: 18px !important;
+}
+
+
