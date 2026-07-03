@@ -10,6 +10,7 @@ import "./globals.css";
 
 export default function RootLayout({ children }) {
   const [isLoading, setLoading] = useState(true);
+  const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -17,6 +18,25 @@ export default function RootLayout({ children }) {
     }, 500);
     return () => clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowScrollTop(true);
+      } else {
+        setShowScrollTop(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
 
   return (
     <html lang="en">
@@ -64,7 +84,17 @@ export default function RootLayout({ children }) {
           <Header1 />
           <div className="page-content">{children}</div>
           <Footer />
-          <button className="scroltop">
+          <button
+            className={`scroltop transition-all duration-300 ${showScrollTop ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"}`}
+            onClick={scrollToTop}
+            style={{
+              position: "fixed",
+              bottom: "30px",
+              right: "30px",
+              zIndex: 9999,
+              display: "block"
+            }}
+          >
             <span className="fa fa-angle-up relative" id="btn-vibrate"></span>
           </button>
         </div>

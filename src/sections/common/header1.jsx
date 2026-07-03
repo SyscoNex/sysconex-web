@@ -7,9 +7,14 @@ import { loadScript } from "@/globals/constants";
 
 function Header1() {
   const [isActive, setIsActive] = useState(false);
+  const [activeSubmenu, setActiveSubmenu] = useState(null);
 
   function toggleNavClass() {
     setIsActive(!isActive);
+  }
+
+  function toggleSubmenu(menu) {
+    setActiveSubmenu(activeSubmenu === menu ? null : menu);
   }
 
   useEffect(() => {
@@ -80,12 +85,12 @@ function Header1() {
               {/* NAV Toggle Button (Mobile) */}
               <button
                 id="mobile-side-drawer"
-                className="md:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5 border-none bg-transparent cursor-pointer"
+                className="md:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5 border-none bg-transparent cursor-pointer z-[1001]"
                 onClick={toggleNavClass}
               >
-                <span className={`block w-6 h-0.5 bg-gray-800 transition-transform ${isActive ? "rotate-45 translate-y-2" : ""}`} />
-                <span className={`block w-6 h-0.5 bg-gray-800 transition-opacity ${isActive ? "opacity-0" : ""}`} />
-                <span className={`block w-6 h-0.5 bg-gray-800 transition-transform ${isActive ? "-rotate-45 -translate-y-2" : ""}`} />
+                <span className={`block w-6 h-0.5 bg-gray-800 transition-transform duration-300 ${isActive ? "rotate-45 translate-y-2" : ""}`} />
+                <span className={`block w-6 h-0.5 bg-gray-800 transition-opacity duration-300 ${isActive ? "opacity-0" : ""}`} />
+                <span className={`block w-6 h-0.5 bg-gray-800 transition-transform duration-300 ${isActive ? "-rotate-45 -translate-y-2" : ""}`} />
               </button>
 
               {/* MAIN NAVIGATION */}
@@ -270,6 +275,260 @@ function Header1() {
             </div>
           </div>
         </div>
+
+        {/* Mobile Navigation Drawer */}
+        <div
+          className={`fixed inset-y-0 right-0 z-[1000] w-full bg-white shadow-2xl transform transition-transform duration-300 ease-in-out md:hidden flex flex-col justify-between ${
+            isActive ? "translate-x-0" : "translate-x-full"
+          }`}
+        >
+          {/* Header of Mobile Drawer */}
+          <div className="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50">
+            <NavLink to="/" onClick={() => setIsActive(false)}>
+              <ItodoImage src="images/Logo.png" alt="SyscoNex Logo" className="max-h-[45px] w-auto block" />
+            </NavLink>
+            <button
+              onClick={() => setIsActive(false)}
+              className="w-8 h-8 flex items-center justify-center text-gray-500 hover:text-red-500 focus:outline-none"
+            >
+              <i className="fa fa-times text-xl" />
+            </button>
+          </div>
+
+          {/* Links list in Mobile Drawer */}
+          <div className="flex-1 overflow-y-auto py-4 px-3">
+            <ul className="flex flex-col gap-2 list-none p-0 m-0">
+              <li>
+                <NavLink
+                  to="/"
+                  onClick={() => setIsActive(false)}
+                  className="px-4 py-3 block font-semibold text-base text-gray-800 hover:text-[var(--primary)] rounded-lg hover:bg-gray-50 transition-all duration-200"
+                >
+                  Home
+                </NavLink>
+              </li>
+
+              {/* Company Submenu Accordion */}
+              <li>
+                <button
+                  onClick={() => toggleSubmenu("company")}
+                  className="w-full px-4 py-3 flex justify-between items-center font-semibold text-base text-gray-800 hover:text-[var(--primary)] hover:bg-gray-50 rounded-lg transition-all duration-200 focus:outline-none"
+                >
+                  <span>Company</span>
+                  <i className={`fa fa-angle-down transition-transform duration-200 ${activeSubmenu === "company" ? "rotate-180" : ""}`} />
+                </button>
+                <div
+                  className={`pl-4 overflow-hidden transition-all duration-300 ${
+                    activeSubmenu === "company" ? "max-h-[300px] opacity-100 mt-1" : "max-h-0 opacity-0"
+                  }`}
+                >
+                  <ul className="flex flex-col gap-1 list-none p-0 m-0 border-l-2 border-gray-100 pl-3">
+                    <li>
+                      <NavLink
+                        to="/about-us"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        About Us
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/faq"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        FAQ Page
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/why-choose-us"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        Why Choose Us
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/team"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        Team
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              {/* Services Submenu Accordion */}
+              <li>
+                <button
+                  onClick={() => toggleSubmenu("services")}
+                  className="w-full px-4 py-3 flex justify-between items-center font-semibold text-base text-gray-800 hover:text-[var(--primary)] hover:bg-gray-50 rounded-lg transition-all duration-200 focus:outline-none"
+                >
+                  <span>Services</span>
+                  <i className={`fa fa-angle-down transition-transform duration-200 ${activeSubmenu === "services" ? "rotate-180" : ""}`} />
+                </button>
+                <div
+                  className={`pl-4 overflow-hidden transition-all duration-300 ${
+                    activeSubmenu === "services" ? "max-h-[500px] opacity-100 mt-1" : "max-h-0 opacity-0"
+                  }`}
+                >
+                  <ul className="flex flex-col gap-1 list-none p-0 m-0 border-l-2 border-gray-100 pl-3">
+                    <li>
+                      <NavLink
+                        to="/services/web-mobile-development"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        Web &amp; Mobile App Development
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/services/ai-ml-solutions"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        AI &amp; Machine Learning
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/services/cybersecurity-services"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        Cybersecurity
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/services/networking-linux-systems"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        Networking &amp; Linux Systems
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/services/seo-optimization"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        SEO Optimization
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/services/graphic-design-branding"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        Graphic Design &amp; Branding
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/services/social-media-marketing"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        Social Media Marketing &amp; Strategy
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/services/digital-marketing-strategy"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        Digital Content &amp; Strategy
+                      </NavLink>
+                    </li>
+                    <li className="border-t border-gray-100 mt-1">
+                      <NavLink
+                        to="/services"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm font-semibold text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        View All Services →
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              {/* IT Solutions Submenu Accordion */}
+              <li>
+                <button
+                  onClick={() => toggleSubmenu("solutions")}
+                  className="w-full px-4 py-3 flex justify-between items-center font-semibold text-base text-gray-800 hover:text-[var(--primary)] hover:bg-gray-50 rounded-lg transition-all duration-200 focus:outline-none"
+                >
+                  <span>IT Solutions</span>
+                  <i className={`fa fa-angle-down transition-transform duration-200 ${activeSubmenu === "solutions" ? "rotate-180" : ""}`} />
+                </button>
+                <div
+                  className={`pl-4 overflow-hidden transition-all duration-300 ${
+                    activeSubmenu === "solutions" ? "max-h-[250px] opacity-100 mt-1" : "max-h-0 opacity-0"
+                  }`}
+                >
+                  <ul className="flex flex-col gap-1 list-none p-0 m-0 border-l-2 border-gray-100 pl-3">
+                    <li>
+                      <NavLink
+                        to="/mission"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        Mission &amp; Vision
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/services"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        Services
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        to="/portfolio"
+                        onClick={() => setIsActive(false)}
+                        className="px-3 py-2 block text-sm text-gray-600 hover:text-[var(--primary)] rounded transition-colors duration-200"
+                      >
+                        Portfolio
+                      </NavLink>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <NavLink
+                  to="/contact-us"
+                  onClick={() => setIsActive(false)}
+                  className="px-4 py-3 block font-semibold text-base text-gray-800 hover:text-[var(--primary)] rounded-lg hover:bg-gray-50 transition-all duration-200"
+                >
+                  Contact Us
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Backdrop Overlay */}
+        {isActive && (
+          <div
+            className="fixed inset-0 z-[998] bg-black/50 backdrop-blur-xs md:hidden"
+            onClick={() => setIsActive(false)}
+          />
+        )}
       </header>
     </>
   );
