@@ -52,22 +52,22 @@ function SectionSlider1() {
                                     <p className="text-base md:text-lg text-gray-200 leading-relaxed mb-6 font-light max-w-[620px]">
                                         At SyscoNex Solutions, we are passionate, inspired, and dedicated to innovation. We craft smart, efficient, and future-ready IT solutions to help businesses grow and succeed.
                                     </p>
-                                    <div className="flex flex-wrap gap-5 items-center">
-                                        <NavLink to="/about-us" className="inline-flex items-center gap-2 bg-[var(--primary)] hover:bg-orange-600 text-white font-semibold px-8 py-3.5 rounded-lg transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-orange-500/20">
+                                    <div className="flex flex-wrap gap-3 sm:gap-5 items-center">
+                                        <NavLink to="/about-us" className="inline-flex items-center gap-2 bg-[var(--primary)] hover:bg-orange-600 text-white font-semibold px-5 py-2.5 sm:px-8 sm:py-3.5 rounded-lg transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-orange-500/20 text-sm sm:text-base">
                                             <span>Read More</span>
                                             <i className="fa fa-long-arrow-right" />
                                         </NavLink>
-                                        <NavLink to="/contact-us" className="inline-flex items-center gap-2 border border-white/20 hover:border-white bg-white/5 hover:bg-white/10 text-white font-semibold px-8 py-3.5 rounded-lg transition-all duration-300">
+                                        <NavLink to="/contact-us" className="inline-flex items-center gap-2 border border-white/20 hover:border-white bg-white/5 hover:bg-white/10 text-white font-semibold px-5 py-2.5 sm:px-8 sm:py-3.5 rounded-lg transition-all duration-300 text-sm sm:text-base">
                                             <span>Contact Us</span>
                                         </NavLink>
                                         
                                         {/* Play Video Button */}
-                                        <a href="https://www.youtube.com/watch?v=SW6LPE99aII" className="mfp-video inline-flex items-center gap-3 text-white hover:text-[var(--primary)] transition-all group ml-2">
-                                            <span className="relative flex items-center justify-center w-12 h-12 rounded-full bg-white/10 hover:bg-[var(--primary)] border border-white/25 hover:border-[var(--primary)] transition-all duration-300 shadow-md">
+                                        <a href="https://www.youtube.com/watch?v=SW6LPE99aII" className="mfp-video inline-flex items-center gap-3 text-white hover:text-[var(--primary)] transition-all group ml-1 sm:ml-2">
+                                            <span className="relative flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/10 hover:bg-[var(--primary)] border border-white/25 hover:border-[var(--primary)] transition-all duration-300 shadow-md">
                                                 <span className="absolute -inset-1 rounded-full bg-white/10 animate-ping opacity-60" />
-                                                <i className="fa fa-play text-base text-white" />
+                                                <i className="fa fa-play text-xs sm:text-base text-white" />
                                             </span>
-                                            <span className="font-semibold text-base tracking-wide">Watch Video</span>
+                                            <span className="font-semibold text-sm sm:text-base tracking-wide">Watch Video</span>
                                         </a>
                                     </div>
                                 </div>
@@ -85,31 +85,31 @@ function SectionSlider1() {
                             {/* Content */}
                             <div className="container relative z-10 mx-auto px-6 md:px-12 py-10 flex flex-col justify-center h-full">
                                 <div className="max-w-[720px] text-left">
-                                    <span className="inline-block text-[var(--primary)] font-bold tracking-[3px] uppercase text-base mb-3">
+                                    <span className="inline-block text-[var(--primary)] font-bold tracking-[3px] uppercase text-sm sm:text-base mb-2 sm:mb-3">
                                         Smart Integration
                                     </span>
-                                    <h1 className="text-3xl sm:text-4xl md:text-7xl font-extrabold text-white leading-[1.15] mb-5 uppercase">
+                                    <h1 className="text-3xl sm:text-4xl md:text-7xl font-extrabold text-white leading-[1.15] mb-4 sm:mb-5 uppercase">
                                         We are ready To <span className="text-[var(--primary)] text-transparent bg-clip-text bg-gradient-to-r from-[var(--primary)] to-orange-400">IT Solution</span> Work.
                                     </h1>
-                                    <p className="text-base md:text-lg text-gray-200 leading-relaxed mb-6 font-light max-w-[620px]">
+                                    <p className="text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed mb-5 sm:mb-6 font-light max-w-[620px]">
                                         At SyscoNex Solutions, we make IT simple, smart, and powerful. From innovation to execution, we build solutions that drive success. Let’s create the future together!
                                     </p>
-                                    <div className="flex flex-wrap gap-5 items-center">
-                                        <NavLink to="/about-us" className="inline-flex items-center gap-2 bg-[var(--primary)] hover:bg-orange-600 text-white font-semibold px-8 py-3.5 rounded-lg transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-orange-500/20">
+                                    <div className="flex flex-wrap gap-3 sm:gap-5 items-center">
+                                        <NavLink to="/about-us" className="inline-flex items-center gap-2 bg-[var(--primary)] hover:bg-orange-600 text-white font-semibold px-5 py-2.5 sm:px-8 sm:py-3.5 rounded-lg transition-all duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-orange-500/20 text-sm sm:text-base">
                                             <span>Read More</span>
                                             <i className="fa fa-long-arrow-right" />
                                         </NavLink>
-                                        <NavLink to="/contact-us" className="inline-flex items-center gap-2 border border-white/20 hover:border-white bg-white/5 hover:bg-white/10 text-white font-semibold px-8 py-3.5 rounded-lg transition-all duration-300">
+                                        <NavLink to="/contact-us" className="inline-flex items-center gap-2 border border-white/20 hover:border-white bg-white/5 hover:bg-white/10 text-white font-semibold px-5 py-2.5 sm:px-8 sm:py-3.5 rounded-lg transition-all duration-300 text-sm sm:text-base">
                                             <span>Contact Us</span>
                                         </NavLink>
                                         
                                         {/* Play Video Button */}
-                                        <a href="https://www.youtube.com/watch?v=SW6LPE99aII" className="mfp-video inline-flex items-center gap-3 text-white hover:text-[var(--primary)] transition-all group ml-2">
-                                            <span className="relative flex items-center justify-center w-12 h-12 rounded-full bg-white/10 hover:bg-[var(--primary)] border border-white/25 hover:border-[var(--primary)] transition-all duration-300 shadow-md">
+                                        <a href="https://www.youtube.com/watch?v=SW6LPE99aII" className="mfp-video inline-flex items-center gap-3 text-white hover:text-[var(--primary)] transition-all group ml-1 sm:ml-2">
+                                            <span className="relative flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-white/10 hover:bg-[var(--primary)] border border-white/25 hover:border-[var(--primary)] transition-all duration-300 shadow-md">
                                                 <span className="absolute -inset-1 rounded-full bg-white/10 animate-ping opacity-60" />
-                                                <i className="fa fa-play text-base text-white" />
+                                                <i className="fa fa-play text-xs sm:text-base text-white" />
                                             </span>
-                                            <span className="font-semibold text-base tracking-wide">Watch Video</span>
+                                            <span className="font-semibold text-sm sm:text-base tracking-wide">Watch Video</span>
                                         </a>
                                     </div>
                                 </div>

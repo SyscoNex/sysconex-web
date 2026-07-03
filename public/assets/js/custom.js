@@ -119,21 +119,7 @@ All JavaScript fuctions Start
 	
 	//________page scroll top on button click function by = custom.js________//	
 	function scroll_top(){
-		jQuery("button.scroltop").on('click', function() {
-			jQuery("html, body").animate({
-				scrollTop: 0
-			}, 1000);
-			return false;
-		});
-
-		jQuery(window).on("scroll", function() {
-			var scroll = jQuery(window).scrollTop();
-			if (scroll > 900) {
-				jQuery("button.scroltop").fadeIn(1000);
-			} else {
-				jQuery("button.scroltop").fadeOut(1000);
-			}
-		});
+		// Handled via React state to avoid conflicts
 	}
 	
 	//________input type file function by = custom.js________//	
